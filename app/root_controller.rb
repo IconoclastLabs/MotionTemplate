@@ -4,5 +4,5 @@ class RootController < UIViewController
   layout :root do
     @a = subview(UILabel, :label)
   end  
-
+  
 end

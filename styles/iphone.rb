@@ -6,7 +6,8 @@ Teacup::Stylesheet.new(:iphone) do
     background: 'custom_nav'
 
   style UIView,
-    backgroundColor: back_color
+    backgroundColor: back_color,
+    nav_background: 'custom_nav'
 
   style :label,
     text: 'App Stuff!',
