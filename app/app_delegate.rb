@@ -12,7 +12,10 @@ class AppDelegate
     @window.makeKeyAndVisible
 
     # fade out splash image
-    image_view.fade_out (1.0) {
+    image_view.fade_out (duration: 1.0,
+                          delay: 0.2,
+                          options: UIViewAnimationOptionCurveLinear,
+                          opacity: 0) {
       image_view.removeFromSuperview
       image_view = nil #little extra cleanup
     }

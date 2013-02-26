@@ -25,11 +25,6 @@ Teacup::Stylesheet.new(:iphone) do
       shadowRadius: 20,
       shadowOpacity: 0.5,
       masksToBounds: false
-    },
-    landscape_left: {
-      layer: {
-        transform: rotate(identity, pi/6, 0.3, 0.3, 0.3)
-      }
     }
 
 end
