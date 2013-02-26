@@ -1,8 +1,10 @@
 # MotionTemplate #
 
-Strightforward clean template for loading in the useful gems
+Strightforward clean template for loading in the useful gems and UI items
 * Teacup
 * Bubblewrap
 * Sugarcube
+* Splash Screen
+* Navigation Skinning
 
-And also implementing place holders for graphical templates of common UI, such as Splash screen and navigation items.
+
