@@ -7,7 +7,7 @@ class AppDelegate
     @window.rootViewController.wantsFullScreenLayout = true
     #Splash Screen
     image_view = UIImageView.alloc.initWithImage('Default'.uiimage) # automatically grabs correct image for phone
-    @window.rootViewController.view.addSubview(image_view)
+    @window.rootViewController.view << image_view
     @window.rootViewController.view.bringSubviewToFront(image_view)
     # normal
     @window.makeKeyAndVisible
