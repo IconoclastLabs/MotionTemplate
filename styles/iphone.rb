@@ -2,9 +2,6 @@
 Teacup::Stylesheet.new(:iphone) do
   back_color = UIColor.lightGrayColor
 
-  style UINavigationBar,
-    background: 'custom_nav'
-
   style UIView,
     backgroundColor: back_color,
     nav_background: 'custom_nav'
