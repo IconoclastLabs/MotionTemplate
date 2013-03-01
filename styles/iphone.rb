@@ -1,6 +1,6 @@
 
 Teacup::Stylesheet.new(:iphone) do
-  back_color = UIColor.lightGrayColor
+  back_color = 0xc3a477.uicolor 
 
   style UIView,
     backgroundColor: back_color,
@@ -27,8 +27,7 @@ Teacup::Stylesheet.new(:iphone) do
 
   style :custom_button,
     frame: [[15,310],[292,42]],
-    textColor: UIColor.whiteColor,
-    title: "Custom",
+    title: "Custom Button",
     button_background: 'large_button',
     backgroundColor: UIColor.clearColor
 end

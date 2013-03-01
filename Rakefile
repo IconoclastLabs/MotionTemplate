@@ -2,11 +2,7 @@
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
 require 'bundler'
-require 'sugarcube'
-require 'teacup'
-require 'sweettea'
 require 'sugarcube-568'
-require 'bubble-wrap'
 Bundler.require
 
 Motion::Project::App.setup do |app|
