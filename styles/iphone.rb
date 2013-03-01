@@ -8,11 +8,11 @@ Teacup::Stylesheet.new(:iphone) do
 
   style :label,
     text: 'App Stuff!',
-    backgroundColor: UIColor.clearColor,
+    backgroundColor: :clear,
     numberOfLines: 0,
-    font: UIFont.boldSystemFontOfSize(40),
-    textColor: UIColor.whiteColor,
-    shadowColor: UIColor.blackColor,
+    font: :bold.uifont(40),
+    textColor: :white,
+    shadowColor: :black,
     textAlignment: UITextAlignmentCenter,
     top: 0,
     left: 0,
@@ -29,5 +29,5 @@ Teacup::Stylesheet.new(:iphone) do
     frame: [[15,310],[292,42]],
     title: "Custom Button",
     button_background: 'large_button',
-    backgroundColor: UIColor.clearColor
+    backgroundColor: :clear
 end
