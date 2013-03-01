@@ -3,6 +3,7 @@ class RootController < UIViewController
 
   layout :root do
     @a = subview(UILabel, :label)
+    @button = subview(UIButton.rounded_rect, :custom_button)
   end  
 
 

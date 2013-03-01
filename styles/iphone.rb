@@ -25,4 +25,7 @@ Teacup::Stylesheet.new(:iphone) do
       masksToBounds: false
     }
 
+  style :custom_button,
+    frame: [[0,310],[292,42]],
+    title: "Custom"
 end
