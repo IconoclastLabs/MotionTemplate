@@ -26,6 +26,9 @@ Teacup::Stylesheet.new(:iphone) do
     }
 
   style :custom_button,
-    frame: [[0,310],[292,42]],
-    title: "Custom"
+    frame: [[15,310],[292,42]],
+    textColor: UIColor.whiteColor,
+    title: "Custom",
+    button_background: 'large_button',
+    backgroundColor: UIColor.clearColor
 end

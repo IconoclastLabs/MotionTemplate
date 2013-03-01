@@ -3,3 +3,9 @@ Teacup.handler UIView, :nav_background { |image|
   # use UIImage.imageNamed if you aren't using sugarcube
   UINavigationBar.appearance.setBackgroundImage(image.uiimage, forBarMetrics:UIBarMetricsDefault)
 }
+
+Teacup.handler UIRoundedRectButton, :button_background { |view, image, text_color|
+  text_color ||= UIColor.whiteColor
+  view.setBackgroundImage(image.uiimage, forState:UIControlStateNormal)
+  view.setTitleColor(text_color, forState:UIControlStateNormal)
+}
