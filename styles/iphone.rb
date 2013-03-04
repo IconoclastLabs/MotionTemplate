@@ -42,4 +42,8 @@ Teacup::Stylesheet.new(:iphone) do
     title: "Custom Button",
     button_background: 'button',
     backgroundColor: :clear
+
+  style :custom_switch,
+    frame: [[200,313],[0,0]]
+
 end
