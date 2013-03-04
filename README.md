@@ -13,7 +13,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 ## Copyright License ##
 
 The graphical assets are not permitted for redistribution.  We bought
-the license to use them here, and their extraction is not permitted
+the license to use them here, and their extraction or reuse is not permitted
 under our purchase license.
 
 The code is completely open under MIT License.
