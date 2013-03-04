@@ -25,9 +25,25 @@ Teacup::Stylesheet.new(:iphone) do
       masksToBounds: false
     }
 
-  style :custom_button,
-    frame: [[15,310],[292,42]],
-    title: "Custom Button",
+  style :custom_long_button,
+    top: 350,
+    left: 15,
+    width: 292,
+    height: 42,
+    title: "Custom Long Button",
     button_background: 'large_button',
     backgroundColor: :clear
+
+  style :custom_button,
+    top: 310,
+    left: 15,
+    width: 142,
+    height: 34,
+    title: "Custom Button",
+    button_background: 'button',
+    backgroundColor: :clear
+
+  style :custom_switch,
+    frame: [[200,313],[0,0]]
+
 end
