@@ -31,8 +31,7 @@ Teacup::Stylesheet.new(:iphone) do
     width: 292,
     height: 42,
     title: "Custom Long Button",
-    button_background: 'large_button',
-    backgroundColor: :clear
+    button_background: 'large_button'
 
   style :custom_button,
     top: 310,
@@ -40,10 +39,13 @@ Teacup::Stylesheet.new(:iphone) do
     width: 142,
     height: 34,
     title: "Custom Button",
-    button_background: 'button',
-    backgroundColor: :clear
+    button_background: 'button'
 
   style :custom_switch,
-    frame: [[200,313],[0,0]]
+    left: 200,
+    top: 313,
+    onImage: 'switch'.uiimage,
+    offImage: 'switch_off'.uiimage
+
 
 end

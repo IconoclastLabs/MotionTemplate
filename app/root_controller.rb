@@ -12,8 +12,6 @@ class RootController < UIViewController
   def viewDidLoad
   	super
   	self.title = "MotionTemplate"
-  	@switch.onImage = 'switch'.uiimage
-  	@switch.offImage = 'switch_off'.uiimage
   	@switch.on = true
   end
 end
