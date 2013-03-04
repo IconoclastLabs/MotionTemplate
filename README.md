@@ -10,3 +10,10 @@ Strightforward clean template for loading useful gems and skinned UI items.
 
 ![MotionTemplate Screenshot](http://i.imgur.com/1Sdiafe.png "MotionTemplate")
 
+## Copyright License ##
+
+The graphical assets are not permitted for redistribution.  We bought
+the license to use them here, and their extraction is not permitted
+under our purchase license.
+
+The code is completely open under MIT License.
