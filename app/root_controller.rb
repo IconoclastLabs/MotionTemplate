@@ -1,5 +1,5 @@
 class RootController < UIViewController
-  stylesheet :iphone
+  stylesheet :root
 
   layout :root do
     @label = subview(UILabel, :label)

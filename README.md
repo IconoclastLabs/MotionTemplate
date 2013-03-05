@@ -7,6 +7,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 * [Sweettea](https://github.com/colinta/sweettea) - Coercion and further sugarcube magic/shortcuts in Teacup CSS
 * [Splash Screen](https://github.com/IconoclastLabs/SplashMotion) - Implemented Splash screen logic, ready to go!
 * [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
+* [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout to help your UI to flow and scale as needed.
 
 ![MotionTemplate Screenshot](http://i.imgur.com/75qfMBq.png "MotionTemplate")
 

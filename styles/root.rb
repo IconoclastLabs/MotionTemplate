@@ -1,6 +1,6 @@
-
-Teacup::Stylesheet.new(:iphone) do
+Teacup::Stylesheet.new(:root) do
   back_color = 0xc3a477.uicolor 
+  v_padding = 10
 
   style UIView,
     backgroundColor: back_color,
@@ -14,10 +14,10 @@ Teacup::Stylesheet.new(:iphone) do
     textColor: :white,
     shadowColor: :black,
     textAlignment: UITextAlignmentCenter,
-    top: 0,
-    left: 0,
-    width: 320,
-    height: 400,
+    constraints: [
+      :full_width,
+      constrain_top(50)
+    ],
     layer: {
       transform: identity,
       shadowRadius: 20,
@@ -26,24 +26,32 @@ Teacup::Stylesheet.new(:iphone) do
     }
 
   style :custom_long_button,
-    top: 350,
-    left: 15,
+    constraints: [
+      constrain_below(:label).plus(v_padding),
+      constrain(:center_x).equals(:superview, :center_x)
+    ],
     width: 292,
     height: 42,
     title: "Custom Long Button",
     button_background: 'large_button'
 
   style :custom_button,
-    top: 310,
-    left: 15,
+    constraints: [
+      constrain_below(:custom_long_button).plus(v_padding),
+      # Position at half of middle minus width/2 yay!
+      constrain(:left).equals(:superview, :center_x).times(0.5).minus(70)
+    ],
     width: 142,
     height: 34,
     title: "Custom Button",
     button_background: 'button'
 
   style :custom_switch,
-    left: 200,
-    top: 313,
+    constraints: [
+      constrain_below(:custom_long_button).plus(v_padding * 2),
+      # Position at Middle + half (75%) minus switch width/2 yay!
+      constrain(:left).equals(:superview, :center_x).times(1.5).minus(30)
+    ],
     onImage: 'switch'.uiimage,
     offImage: 'switch_off'.uiimage,
     on: true
