@@ -38,8 +38,9 @@ Teacup::Stylesheet.new(:root) do
   style :custom_button,
     constraints: [
       constrain_below(:custom_long_button).plus(v_padding),
-      # Position at half of middle minus width/2 yay!
-      constrain(:left).equals(:superview, :center_x).times(0.5).minus(70)
+      # Position at half of middle (q1)
+      constrain(:center_x).equals(:superview, :center_x).times(0.5),
+      constrain(:left).equals(:superview, :left).plus(10)
     ],
     width: 142,
     height: 34,
@@ -49,8 +50,8 @@ Teacup::Stylesheet.new(:root) do
   style :custom_switch,
     constraints: [
       constrain_below(:custom_long_button).plus(v_padding * 2),
-      # Position at Middle + half (75%) minus switch width/2 yay!
-      constrain(:left).equals(:superview, :center_x).times(1.5).minus(30)
+      # Position at Middle + half (75%)
+      constrain(:center_x).equals(:superview, :center_x).times(1.5)
     ],
     onImage: 'switch'.uiimage,
     offImage: 'switch_off'.uiimage,
