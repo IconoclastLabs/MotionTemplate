@@ -3,12 +3,12 @@ GEM
   specs:
     bubble-wrap (1.1.5)
     rake (10.0.3)
-    sugarcube (0.18.12)
+    sugarcube (0.18.17)
     sweettea (0.5.6)
       rake
       sugarcube
       teacup
-    teacup (1.2.7)
+    teacup (1.2.8)
       rake
 
 PLATFORMS

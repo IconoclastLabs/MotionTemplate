@@ -1,8 +1,2 @@
-# strange wizardly madness needed to stop odd errors in Teacup
-class DummyUISwitch < UISwitch
-private
-	def dummy
-		setOn(nil)
-	end
-
-end
+# for when I come across one of those silly precompile issues
+# that is not yet supported by teacup
