@@ -9,7 +9,13 @@ Strightforward clean template for loading useful gems and skinned UI items.
 * [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
 * [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout to help your UI to flow and scale as needed.
 
-![MotionTemplate Screenshot](http://i.imgur.com/75qfMBq.png "MotionTemplate")
+![MotionTemplate Screenshot](http://i.imgur.com/OB7JR0i.png "MotionTemplate")
+
+## Requirements ##
+
+This is a RubyMotion Project with all dependencies listed in the Gem file.
+
+Additionally, since we're using Autolayout, so iOS 6 or greater is manditory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
 
 ## Copyright License ##
 
