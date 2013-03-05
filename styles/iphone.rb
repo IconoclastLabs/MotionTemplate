@@ -45,7 +45,7 @@ Teacup::Stylesheet.new(:iphone) do
     left: 200,
     top: 313,
     onImage: 'switch'.uiimage,
-    offImage: 'switch_off'.uiimage
-
+    offImage: 'switch_off'.uiimage,
+    on: true
 
 end
