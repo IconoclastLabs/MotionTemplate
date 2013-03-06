@@ -3,9 +3,9 @@ class RootController < UIViewController
 
   layout :root do
     @label = subview(UILabel, :label)
-    @button = subview(UIButton.rounded_rect, :custom_button)
-    @long_button = subview(UIButton.rounded_rect, :custom_long_button)
-    @switch = subview(UISwitch, :custom_switch)
+    @button = subview(UIButton.rounded_rect, :button)
+    @long_button = subview(UIButton.rounded_rect, :long_button)
+    @switch = subview(UISwitch, :switch)
   end  
 
 

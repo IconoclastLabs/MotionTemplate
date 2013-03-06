@@ -1,10 +1,7 @@
-Teacup::Stylesheet.new(:root) do
-  back_color = 0xc3a477.uicolor 
-  v_padding = 10
+Teacup::Stylesheet.new :root do
+  import :base
 
-  style UIView,
-    backgroundColor: back_color,
-    nav_background: 'custom_nav'
+  v_padding = 10
 
   style :label,
     text: 'App Stuff!',
@@ -25,36 +22,25 @@ Teacup::Stylesheet.new(:root) do
       masksToBounds: false
     }
 
-  style :custom_long_button,
+  style :long_button, extends: :custom_long_button,
     constraints: [
       constrain_below(:label).plus(v_padding),
       constrain(:center_x).equals(:superview, :center_x)
-    ],
-    width: 292,
-    height: 42,
-    title: "Custom Long Button",
-    button_background: 'large_button'
+    ]
 
-  style :custom_button,
+  style :button, extends: :custom_button,
     constraints: [
-      constrain_below(:custom_long_button).plus(v_padding),
+      constrain_below(:long_button).plus(v_padding),
       # Position at half of middle (q1)
       constrain(:center_x).equals(:superview, :center_x).times(0.5),
       constrain(:left).equals(:superview, :left).plus(10)
-    ],
-    width: 142,
-    height: 34,
-    title: "Custom Button",
-    button_background: 'button'
+    ]
 
-  style :custom_switch,
+  style :switch, extends: :custom_switch,
     constraints: [
-      constrain_below(:custom_long_button).plus(v_padding * 2),
+      constrain_below(:long_button).plus(v_padding * 2),
       # Position at Middle + half (75%)
       constrain(:center_x).equals(:superview, :center_x).times(1.5)
-    ],
-    onImage: 'switch'.uiimage,
-    offImage: 'switch_off'.uiimage,
-    on: true
+    ]
 
 end
