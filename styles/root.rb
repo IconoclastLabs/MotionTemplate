@@ -43,4 +43,9 @@ Teacup::Stylesheet.new :root do
       constrain(:center_x).equals(:superview, :center_x).times(1.5)
     ]
 
+  style :color_button, extends: :custom_color_button,
+    constraints: [
+      :full_width,
+      constrain_below(:button).plus(v_padding)
+    ]
 end

@@ -1,5 +1,7 @@
 Teacup::Stylesheet.new :base do
   back_color = 0xc3a477.uicolor 
+  dark_color = 0x4d3e33.uicolor
+  mid_color = 0x9f8061.uicolor
 
   style UIView,
     backgroundColor: back_color,
@@ -21,4 +23,14 @@ Teacup::Stylesheet.new :base do
     onImage: 'switch'.uiimage,
     offImage: 'switch_off'.uiimage,
     on: true
+
+  style :color_button,
+    backgroundColor: mid_color,
+    title: "Custom Color Button - No Images",
+    height: 34,
+    layer: {
+      borderColor: dark_color,
+      borderWidth: 0.5,
+      cornerRadius: 10
+    }
 end

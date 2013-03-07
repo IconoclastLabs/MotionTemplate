@@ -6,6 +6,7 @@ class RootController < UIViewController
     @button = subview(UIButton.rounded_rect, :button)
     @long_button = subview(UIButton.rounded_rect, :long_button)
     @switch = subview(UISwitch, :switch)
+    @color_button = subview(UIButton.custom, :color_button)
   end  
 
 
