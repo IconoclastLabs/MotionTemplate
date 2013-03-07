@@ -6,7 +6,7 @@ Teacup::Stylesheet.new :base do
   style UIView,
     backgroundColor: back_color,
     nav_background: 'custom_nav',
-    nav_tint: mid_color
+    nav_btn_tint: mid_color
 
   style :custom_label,
     text: 'App Stuff!',

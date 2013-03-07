@@ -4,7 +4,7 @@ Teacup.handler UIView, :nav_background { |image|
   UINavigationBar.appearance.setBackgroundImage(image.uiimage, forBarMetrics:UIBarMetricsDefault)
 }
 
-Teacup.handler UIView, :nav_tint { |color|
+Teacup.handler UIView, :nav_btn_tint { |color|
  	UIBarButtonItem.appearance.setTintColor(color)
 }
 
