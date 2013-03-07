@@ -3,24 +3,12 @@ Teacup::Stylesheet.new :root do
 
   v_padding = 10
 
-  style :label,
-    text: 'App Stuff!',
-    backgroundColor: :clear,
-    numberOfLines: 0,
-    font: :bold.uifont(40),
-    textColor: :white,
-    shadowColor: :black,
-    textAlignment: UITextAlignmentCenter,
+  style :label, extends: :custom_label,
     constraints: [
       :full_width,
       constrain_top(50)
     ],
-    layer: {
-      transform: identity,
-      shadowRadius: 20,
-      shadowOpacity: 0.5,
-      masksToBounds: false
-    }
+    backgroundColor: :clear
 
   style :long_button, extends: :custom_long_button,
     constraints: [
@@ -48,5 +36,5 @@ Teacup::Stylesheet.new :root do
       :full_width,
       constrain_below(:button).plus(v_padding)
     ]
-    
+
 end

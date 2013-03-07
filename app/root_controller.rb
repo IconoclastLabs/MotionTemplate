@@ -14,10 +14,16 @@ class RootController < UIViewController
   def viewDidLoad
   	super
   	# Title for this view
-  	self.title = "MotionTemplate"
+  	self.title = "Motion Template"
 
   	# Use custom button for navigation button
+  	@gear.addTarget(self, action:'push_settings', forControlEvents:UIControlEventTouchUpInside)
   	@nav_bar_button = UIBarButtonItem.alloc.initWithCustomView(@gear)
     self.navigationItem.rightBarButtonItem = @nav_bar_button
+  end
+
+  def push_settings
+  	@settings = SettingsController.alloc.init 
+  	self.navigationController.pushViewController(@settings, animated: true)
   end
 end

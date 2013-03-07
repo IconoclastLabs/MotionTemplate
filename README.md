@@ -25,6 +25,8 @@ under our purchase license.
 
 The code is completely open under MIT License.
 
+See LICENSE file for full details.
+
 ## Faults ##
 This application is far from completed.  It has the following faults:
 * Landscape mode repeats the navigation background image.  Would be nice to either get a bigger image to replace, or have it drop out and go to a tinted background.

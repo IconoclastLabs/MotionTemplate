@@ -5,7 +5,23 @@ Teacup::Stylesheet.new :base do
 
   style UIView,
     backgroundColor: back_color,
-    nav_background: 'custom_nav'
+    nav_background: 'custom_nav',
+    nav_tint: mid_color
+
+  style :custom_label,
+    text: 'App Stuff!',
+    backgroundColor: :clear,
+    numberOfLines: 0,
+    font: :bold.uifont(40),
+    textColor: :white,
+    shadowColor: :black,
+    textAlignment: UITextAlignmentCenter,
+    layer: {
+      transform: identity,
+      shadowRadius: 20,
+      shadowOpacity: 0.5,
+      masksToBounds: false
+    }
 
   style :custom_long_button,
     width: 292,
