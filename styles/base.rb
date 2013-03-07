@@ -33,4 +33,10 @@ Teacup::Stylesheet.new :base do
       borderWidth: 0.5,
       cornerRadius: 10
     }
+
+  style :settings_button,
+    button_background: 'gear',
+    height: 18,
+    width: 18,
+    backgroundColor: :clear
 end
