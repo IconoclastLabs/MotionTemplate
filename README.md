@@ -9,7 +9,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 * [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
 * [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
 
-![MotionTemplate Screenshot](http://i.imgur.com/bDxdwmU.png?1 "MotionTemplate")
+![MotionTemplate Screenshot](http://i.imgur.com/15Hjlaq.png "MotionTemplate")
 
 ## Requirements ##
 
@@ -31,4 +31,3 @@ See LICENSE file for full details.
 This application is far from completed.  It has the following faults:
 * Landscape mode repeats the navigation background image.  Would be nice to either get a bigger image to replace, or have it drop out and go to a tinted background.
 * Gear settings icon is too snug to the top right.  Can't seem to style it with constraints.
-* Customize and display a UISegmentedControl from the template
