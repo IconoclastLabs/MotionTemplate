@@ -37,9 +37,15 @@ Teacup::Stylesheet.new :root do
       constrain_below(:button).plus(v_padding)
     ]
 
-  style :segmented, extends: :custom_segmented,
+  style :texture_segmented, extends: :custom_texture_segmented,
     constraints: [
       constrain_below(:color_button).plus(v_padding),
+      constrain(:center_x).equals(:superview, :center_x)
+    ]
+
+  style :segmented, extends: :custom_segmented,
+    constraints: [
+      constrain_below(:texture_segmented).plus(v_padding),
       constrain(:center_x).equals(:superview, :center_x)
     ]
 end

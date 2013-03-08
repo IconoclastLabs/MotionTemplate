@@ -59,5 +59,8 @@ Teacup::Stylesheet.new :base do
   style :custom_segmented,
     tintColor: mid_color
 
-    
+  style :custom_texture_segmented,
+    backgroundOn: 'button'
+
+
 end
