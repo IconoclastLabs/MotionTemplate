@@ -8,6 +8,7 @@ class RootController < UIViewController
     @switch = subview(UISwitch, :switch)
     @color_button = subview(UIButton.custom, :color_button)
     @gear = subview(UIButton.rounded_rect, :settings_button)
+    @seg = subview(UISegmentedControl.bar(["one","two","three"]), :segmented)
   end  
 
 

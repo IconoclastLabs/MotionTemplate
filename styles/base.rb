@@ -55,4 +55,9 @@ Teacup::Stylesheet.new :base do
     height: 18,
     width: 18,
     backgroundColor: :clear
+
+  style :custom_segmented,
+    tintColor: mid_color
+
+    
 end
