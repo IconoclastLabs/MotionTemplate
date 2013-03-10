@@ -31,3 +31,11 @@ See LICENSE file for full details.
 This application is far from completed.  It has the following faults:
 * Landscape mode repeats the navigation background image.  Would be nice to either get a bigger image to replace, or have it drop out and go to a tinted background.
 * Gear settings icon is too snug to the top right.  Can't seem to style it with constraints.
+
+## Requests and Credits ##
+If you'd like to send inquiries, compliments or criticisms you can find us here
+[IconoclastLabs.com](http://www.IconoclastLabs.com)
+
+As always we're opent to pull requests/issues!
+
+Special thanks to Colinta for answering questions and writing/maintaining some of the key gems in this project.
