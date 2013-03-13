@@ -18,3 +18,12 @@ Teacup.handler UISegmentedControl, :backgroundOn do |view, image, segment_image|
 	view.setBackgroundImage(image.uiimage, forState:UIControlStateNormal, barMetrics:UIBarMetricsDefault)
 end
 
+Teacup.handler UISlider, :minImage do |minImage|
+	UISlider.appearance.setMinimumTrackImage(minImage.uiimage, forState:UIControlStateNormal)
+end
+Teacup.handler UISlider, :maxImage do |maxImage|
+	UISlider.appearance.setMaximumTrackImage(maxImage.uiimage, forState:UIControlStateNormal)
+end
+Teacup.handler UISlider, :thumbImage do |thumbImage|
+	UISlider.appearance.setThumbImage(thumbImage.uiimage, forState:UIControlStateNormal)
+end

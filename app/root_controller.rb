@@ -10,6 +10,7 @@ class RootController < UIViewController
     @gear = subview(UIButton.rounded_rect, :settings_button)
     @seg = subview(UISegmentedControl.bar(["one","two","three"]), :segmented)
     @texture_seg = subview(UISegmentedControl.bar(["I","use","an","image!"]), :texture_segmented)
+    @slider = subview(UISlider, :slider)
   end  
 
 

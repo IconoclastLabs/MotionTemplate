@@ -62,5 +62,9 @@ Teacup::Stylesheet.new :base do
   style :custom_texture_segmented,
     backgroundOn: 'button'
 
-
+  style :custom_slider,
+      minImage: 'slider',
+      maxImage: 'slider_off',
+      thumbImage: 'knob',
+      value: 0.5
 end

@@ -48,4 +48,11 @@ Teacup::Stylesheet.new :root do
       constrain_below(:texture_segmented).plus(v_padding),
       constrain(:center_x).equals(:superview, :center_x)
     ]
+
+  style :slider, extends: :custom_slider,
+    constraints: [
+      :full_width,
+      constrain_below(:segmented).plus(v_padding),
+      constrain(:center_x).equals(:superview, :center_x)
+    ]
 end
