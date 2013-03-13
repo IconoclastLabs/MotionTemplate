@@ -60,11 +60,16 @@ Teacup::Stylesheet.new :base do
     tintColor: mid_color
 
   style :custom_texture_segmented,
-    backgroundOn: 'button'
+    texture: {
+        segmentImage: 'segment',
+        backgroundOn: 'button'
+      }
 
   style :custom_slider,
-      minImage: 'slider',
-      maxImage: 'slider_off',
-      thumbImage: 'knob',
+      texture: {
+        minImage: 'slider',
+        maxImage: 'slider_off',
+        thumbImage: 'knob'
+      },
       value: 0.5
 end
