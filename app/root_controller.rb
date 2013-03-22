@@ -27,6 +27,6 @@ class RootController < UIViewController
 
   def push_settings
   	@settings = SettingsController.alloc.init 
-  	self.navigationController.pushViewController(@settings, animated: true)
+  	self.navigationController << @settings
   end
 end
