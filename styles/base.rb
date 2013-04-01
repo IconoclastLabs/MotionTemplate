@@ -4,7 +4,7 @@ Teacup::Stylesheet.new :base do
   mid_color = 0x9f8061.uicolor
 
   style UIView,
-    backgroundColor: back_color,
+    backgroundColor: 'background'.uicolor,
     nav_background: 'custom_nav',
     nav_btn_tint: mid_color
 
