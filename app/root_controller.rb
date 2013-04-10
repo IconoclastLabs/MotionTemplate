@@ -16,8 +16,9 @@ class RootController < UIViewController
 
   def viewDidLoad
   	super
-  	# Title for this view
-  	self.title = "Motion Template"
+    # Custom Navigation Title
+    @custom_label = layout(UILabel, :custom_title)
+    self.navigationItem.titleView = @custom_label
 
   	# Use custom button for navigation button
   	@gear.addTarget(self, action:'push_settings', forControlEvents:UIControlEventTouchUpInside)

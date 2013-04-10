@@ -72,4 +72,13 @@ Teacup::Stylesheet.new :base do
         thumbImage: 'knob'
       },
       value: 0.5
+
+  style :custom_title,
+    frame: [[0,0],[300, 40]],
+    font: "SnellRoundhand".uifont(26),
+    text: "Motion Template",
+    textColor: :white,
+    textAlignment: :center,
+    backgroundColor: :clear,
+    adjustsFontSizeToFitWidth: true
 end
