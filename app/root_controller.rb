@@ -14,8 +14,7 @@ class RootController < UIViewController
   end  
 
 
-  def viewDidLoad
-  	super
+  def layoutDidLoad
     # Custom Navigation Title
     @custom_label = layout(UILabel, :custom_title)
     self.navigationItem.titleView = @custom_label

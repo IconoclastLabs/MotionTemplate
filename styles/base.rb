@@ -80,5 +80,6 @@ Teacup::Stylesheet.new :base do
     textColor: :white,
     textAlignment: :center,
     backgroundColor: :clear,
+    shadowColor: :black,
     adjustsFontSizeToFitWidth: true
 end
