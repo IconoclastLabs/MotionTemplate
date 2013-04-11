@@ -15,6 +15,6 @@ Motion::Project::App.setup do |app|
   app.prerendered_icon = true
 
   #include styles
-  app.files += Dir.glob(File.join(app.project_dir, 'styles/**/*.rb'))
+  app.files += Dir.glob(File.join(app.project_dir, 'lib/**/*.rb'))
 
 end
