@@ -8,6 +8,9 @@ class SettingsController < UIViewController
   end  
 
   def layoutDidLoad
+
+  	self.title = "Normal Title"
+  	
   	@site_button.on(:touch) do
   		"http://www.IconoclastLabs.com".nsurl.open
   	end

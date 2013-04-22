@@ -14,6 +14,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 For a more detailed analysis of this Template see our blog post here: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
 ![MotionTemplate Screenshot](http://i.imgur.com/2Ryn6oS.png "MotionTemplate")
+![MotionTemplate Settings](http://i.imgur.com/ffZKLAn.png "MotionTemplateSettings")
 
 ## Requirements ##
 
@@ -42,4 +43,4 @@ If you'd like to send inquiries, compliments or criticisms you can find us here
 
 As always we're opent to pull requests/issues!
 
-Special thanks to Colinta for answering questions and writing/maintaining some of the key gems in this project.
+Special thanks to Colin T.A. Gray for answering questions and writing/maintaining some of the key gems in this project.
