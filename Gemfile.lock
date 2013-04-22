@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print_motion (0.1.0)
     bubble-wrap (1.1.5)
     rake (10.0.3)
     sugarcube (0.19.5)
@@ -15,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print_motion
   bubble-wrap
   sugarcube
   sweettea
