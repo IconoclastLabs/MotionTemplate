@@ -9,6 +9,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 * [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
 * [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
 * [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
+* [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project
 
 For a more detailed analysis of this Template see our blog post here: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 

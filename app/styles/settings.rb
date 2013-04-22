@@ -2,8 +2,10 @@ Teacup::Stylesheet.new :settings do
   import :base
 
   v_padding = 10
+  h_padding = 10
   gradient_top_color = 0xc3a477.uicolor 
   gradient_bottom_color = 0x9f8061.uicolor
+  twitter_blue = 0x4099ff.uicolor
 
   # Commented out because it doesn't seem to play nicely with landscape
   #style :settings,
@@ -16,6 +18,15 @@ Teacup::Stylesheet.new :settings do
       :full_width,
       constrain_top(150)
     ],
-    backgroundColor: :clear
+    backgroundColor: :clear,
+    text: "Tweetlate"
+
+  style :test,
+    constraints: [
+      constrain(:center_y).equals(:label, :center_y),
+      constrain_left(15)
+    ],
+    backgroundColor: :clear,
+    textColor: twitter_blue
 
 end
