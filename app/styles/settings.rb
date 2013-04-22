@@ -18,15 +18,20 @@ Teacup::Stylesheet.new :settings do
       :full_width,
       constrain_top(150)
     ],
-    backgroundColor: :clear,
-    text: "Tweetlate"
+    backgroundColor: :clear
 
-  style :test,
+  style :twitter_label,
     constraints: [
-      constrain(:center_y).equals(:label, :center_y),
-      constrain_left(15)
+      constrain(:center_x).equals(:superview, :center_x),
+      constrain_below(:label)
     ],
     backgroundColor: :clear,
     textColor: twitter_blue
+
+  style :site_button,
+    constraints: [
+      constrain(:center_x).equals(:superview, :center_x),
+      constrain_below(:twitter_label)
+    ]
 
 end

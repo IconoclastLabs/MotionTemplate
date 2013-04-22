@@ -1,20 +1,16 @@
 class SettingsController < UIViewController
-  include MotionAwesome
   stylesheet :settings
 
   layout :settings do
     @label = subview(UILabel, :label)
+    @twitter = subview(MotionAwesome.label(:twitter, text: '@IconoclastLabs'), :twitter_label)
+    @site_button = subview(MotionAwesome.button(:beaker, text: 'Iconoclast Labs Website'), :site_button)
   end  
 
-  def viewDidLoad
-  	# Create Motion Awesome Icons!  
-  	# Cautionary note:  Do this before the styles of Teacup have been applied, to utilize Teacup.  
-  	# ^ thats why we're using viewDidLoad w/ super  instead of layoutDidLoad
-  	twitter = label( :twitter, size: 40) do |label|
-  		label.stylename = :test
-  		self.view.addSubview(label)
+  def layoutDidLoad
+  	@site_button.on(:touch) do
+  		"http://www.IconoclastLabs.com".nsurl.open
   	end
-
-  	super
   end
+
 end
