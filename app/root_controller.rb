@@ -1,6 +1,7 @@
 class RootController < UIViewController
   stylesheet :root
 
+  # Layout code via teacup
   layout :root do
     @label = subview(UILabel, :label)
     @button = subview(UIButton.rounded_rect, :button)
@@ -26,7 +27,7 @@ class RootController < UIViewController
   end
 
   def push_settings
-  	@settings = SettingsController.alloc.init 
+  	@settings = SettingsController.new
   	self.navigationController << @settings
   end
 end
