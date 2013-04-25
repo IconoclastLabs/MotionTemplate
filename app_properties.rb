@@ -1,6 +1,6 @@
 class AppProperties
   VERSION = '1.4'
-  SKU_NAME = 'motiontemplate' #default
+  SKU_NAME = 'motiontemplate' 
   COMPANY_NAME = 'com.iconoclastlabs.'
 
   def name
@@ -9,10 +9,6 @@ class AppProperties
 
   def version
     VERSION
-  end
-
-  def major_version
-    VERSION.scan(/\d+/).first
   end
 
   def frameworks
@@ -39,6 +35,10 @@ class AppProperties
     '6.0'
   end
 
+  # add folders outside of /app
+  def additional_folders
+    ['lib']
+  end
 
   def delegate
     'app_delegate'
@@ -69,4 +69,17 @@ class AppProperties
   # def icons
   #   icn = ["#{self.name}.png", "#{self.name}-72.png", "#{self.name}@2x.png"]
   # end
+
+  # add all files from folders in additional_folders
+  def render_files app
+    more_files = []
+    additional_folders.each do |folder|
+      more_files += Dir.glob(File.join(app.project_dir, '#{folder}/**/*.rb'))
+    end
+    more_files
+  end
+
+  def major_version
+    VERSION.scan(/\d+/).first
+  end
 end
