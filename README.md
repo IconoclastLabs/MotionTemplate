@@ -31,7 +31,7 @@ under our purchase license.
 
 The code is completely open under MIT License.
 
-See LICENSE file for full details.
+See [LICENSE](https://github.com/IconoclastLabs/MotionTemplate/blob/master/LICENSE) file for full details.
 
 ## Faults ##
 This application is far from completed.  It has the following faults:
@@ -39,9 +39,9 @@ This application is far from completed.  It has the following faults:
 * Gear settings icon is too snug to the top right.  Can't seem to style it with constraints.
 
 ## Requests and Credits ##
-If you'd like to send inquiries, compliments or criticisms you can find us here
-[IconoclastLabs.com](http://www.IconoclastLabs.com)
-
 As always we're opent to pull requests/issues!
 
 Special thanks to Colin T.A. Gray for answering questions and writing/maintaining some of the key gems in this project.
+
+If you'd like to send inquiries, compliments or criticisms you can find us here
+![contact](https://s3.amazonaws.com/iconoclastweb/email_pic.png)
