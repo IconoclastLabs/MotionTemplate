@@ -74,7 +74,7 @@ class AppProperties
   def render_files app
     more_files = []
     additional_folders.each do |folder|
-      more_files += Dir.glob(File.join(app.project_dir, '#{folder}/**/*.rb'))
+      more_files += Dir.glob(File.join(app.project_dir, "#{folder}/**/*.rb"))
     end
     more_files
   end
