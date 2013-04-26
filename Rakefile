@@ -24,9 +24,11 @@ Motion::Project::App.setup do |app|
   app.codesign_certificate = props.distribution_certificate
   #app.codesign_certificate = props.developer_certificate
 
-  # include external files
-  app.files += props.render_files(app)
-  
+  #include styles
+  app.files += Dir.glob(File.join(app.project_dir, 'lib/**/*.rb'))
+  # include external files -- NOT WORKING 
+  #app.files += props.render_files(app)
+
   app.frameworks += props.frameworks
   app.prerendered_icon = props.prerendered_icon
 end
