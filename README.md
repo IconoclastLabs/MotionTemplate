@@ -1,5 +1,7 @@
 # MotionTemplate #
 
+[![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
+
 Strightforward clean template for loading useful gems and skinned UI items.
 * [Teacup](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
 * [Bubblewrap](https://github.com/rubymotion/BubbleWrap) - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.
@@ -19,7 +21,7 @@ For a more detailed analysis of this Template see our blog post here: [http://ic
 
 ## Requirements ##
 
-This is a RubyMotion Project with all dependencies listed in the Gem file.
+This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
 
 Additionally, since we're using Autolayout, so iOS 6 or greater is manditory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
 
