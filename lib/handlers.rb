@@ -1,5 +1,6 @@
-Teacup.handler UIView, :nav_background do |image|
-  UINavigationBar.appearance.setBackgroundImage(image.uiimage, forBarMetrics:UIBarMetricsDefault)
+Teacup.handler UIView, :nav_background do |view, hash|
+  UINavigationBar.appearance.setBackgroundImage(hash[:normal].uiimage, forBarMetrics:UIBarMetricsDefault)
+  UINavigationBar.appearance.setBackgroundImage(hash[:landscape].uiimage, forBarMetrics:UIBarMetricsLandscapePhone)
 end
 
 Teacup.handler UIView, :nav_btn_tint do |color|

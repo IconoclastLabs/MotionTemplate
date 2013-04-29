@@ -5,7 +5,10 @@ Teacup::Stylesheet.new :base do
 
   style UIView,
     backgroundColor: 'background'.uicolor,
-    nav_background: 'custom_nav',
+    nav_background: {
+      normal: 'custom_nav',
+      landscape: 'custom_landscape_nav'
+      },
     nav_btn_tint: mid_color
 
   style :custom_label,
