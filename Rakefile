@@ -21,9 +21,12 @@ Motion::Project::App.setup do |app|
   app.device_family = props.devices
   #app.icons = props.icons
   app.provisioning_profile = props.provisioning
-  app.codesign_certificate = props.distribution_certificate
-  #app.codesign_certificate = props.developer_certificate
-
+  app.release do
+    app.codesign_certificate = props.distribution_certificate
+  end
+  app.development do
+    app.codesign_certificate = props.developer_certificate
+  end
   # include external files
   app.files += props.render_files(app)
 
