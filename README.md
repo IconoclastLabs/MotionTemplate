@@ -13,6 +13,7 @@ Strightforward clean template for loading useful gems and skinned UI items.
 * [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
 * [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
 * [AppProperties Class](http://rubysource.com/rubymotion-workflow-customizations/) - The rakefile has been generalized and most configurations are in the `app_properties.rb` for clarity.  Don't forget to point provisioning to a symlink (allowing multiple users for the same source).
+* [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
 
 For a more detailed analysis of this Template see our blog post here: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
