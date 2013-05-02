@@ -24,6 +24,10 @@ class AppDelegate
       image_view.removeFromSuperview
       image_view = nil #little extra cleanup
     }
+
+    # include the SaveUIPlugin, which is not included by default
+    Motion::Xray.register(Motion::Xray::SaveUIPlugin.new)
+
     true
   end
 end
