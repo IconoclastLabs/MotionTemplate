@@ -32,4 +32,7 @@ Motion::Project::App.setup do |app|
 
   app.frameworks += props.frameworks
   app.prerendered_icon = props.prerendered_icon
+
+  # trying this to get xray working
+  app.detect_dependencies = false
 end
