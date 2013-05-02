@@ -2,8 +2,9 @@
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
 require 'bundler'
-require 'sugarcube-568'
 Bundler.require
+require 'sugarcube-568'
+require 'sugarcube-repl'
 
 
 require './app_properties'
@@ -33,6 +34,6 @@ Motion::Project::App.setup do |app|
   app.frameworks += props.frameworks
   app.prerendered_icon = props.prerendered_icon
 
-  # trying this to get xray working
+  # workaround for a RM bug and Bubblewrap, should be solved in the next RM release
   app.detect_dependencies = false
 end
