@@ -12,7 +12,7 @@ class AppProperties
   end
 
   def frameworks
-    []
+    ['MessageUI']
   end
 
   def contributors
@@ -20,7 +20,7 @@ class AppProperties
   end
 
   def developer_certificate
-    "iPhone Developer: Matt Garrison (EUS6PB7N8V)"
+    "iPhone Developer: Matt Garrison"
   end
 
   def distribution_certificate
