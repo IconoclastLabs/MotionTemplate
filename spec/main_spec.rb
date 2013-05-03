@@ -18,4 +18,9 @@ describe "Application 'SplashMotion'" do
       @root_view.subviews.size.should.not.equal @start_views
     end
   end
+
+  it "should load base stylesheet" do
+    @stylesheet = Teacup::Stylesheet[:base]
+    @stylesheet.nil?.should == false
+  end
 end

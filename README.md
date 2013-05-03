@@ -1,11 +1,50 @@
 # MotionTemplate #
 
+[![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
+
 Strightforward clean template for loading useful gems and skinned UI items.
-* [Teacup](https://github.com/rubymotion/teacup) - Interface for CSS centric styling.
+* [Teacup](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
 * [Bubblewrap](https://github.com/rubymotion/BubbleWrap) - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.
-* [Sugarcube](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts to iOS annoyances and verbosity.
-* [Sweettea](https://github.com/colinta/sweettea) - Coercion and further sugarcube magic/shortcuts in Teacup CSS
+* [Sugarcube](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts for iOS annoyances and verbosity.
+* [Sweettea](https://github.com/colinta/sweettea) - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.
 * [Splash Screen](https://github.com/IconoclastLabs/SplashMotion) - Implemented Splash screen logic, ready to go!
-* [Navigation Bar Skin](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
+* [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
+* [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
+* [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
+* [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
+* [AppProperties Class](http://rubysource.com/rubymotion-workflow-customizations/) - The rakefile has been generalized and most configurations are in the `app_properties.rb` for clarity.  Don't forget to point provisioning to a symlink (allowing multiple users for the same source).
+* [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
 
+For a more detailed analysis of this Template see our blog post here: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
+![MotionTemplate Screenshot](http://i.imgur.com/2Ryn6oS.png "MotionTemplate")
+![MotionTemplate Settings](http://i.imgur.com/ffZKLAn.png "MotionTemplateSettings")
+
+## Requirements ##
+
+This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
+
+Additionally, since we're using Autolayout, so iOS 6 or greater is manditory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+
+## Copyright License ##
+
+The graphical assets are not permitted for redistribution.  We bought
+the license to use them here, and their extraction or reuse is not permitted
+under our purchase license.
+
+The code is completely open under MIT License.
+
+See [LICENSE](https://github.com/IconoclastLabs/MotionTemplate/blob/master/LICENSE) file for full details.
+
+## Faults ##
+This application is far from completed.  It has the following faults:
+* Landscape mode repeats the navigation background image.  Would be nice to either get a bigger image to replace, or have it drop out and go to a tinted background.
+* Gear settings icon is too snug to the top right.  Can't seem to style it with constraints.
+
+## Requests and Credits ##
+As always we're opent to pull requests/issues!
+
+Special thanks to Colin T.A. Gray for answering questions and writing/maintaining some of the key gems in this project.
+
+If you'd like to send inquiries, compliments or criticisms you can find us here
+![contact](https://s3.amazonaws.com/iconoclastweb/email_pic.png)
