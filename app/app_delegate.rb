@@ -28,7 +28,6 @@ class AppDelegate
     # include the SaveUIPlugin, which is not included by default
     Motion::Xray.register(Motion::Xray::SaveUIPlugin.new)
 
-    puts AppProperties::VERSION
     true
   end
 end

@@ -1,5 +1,5 @@
 Teacup::Stylesheet.new :root do
-  import :basic
+  import AppProperties.root_style
 
   v_padding = 10
 
