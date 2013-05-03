@@ -24,7 +24,7 @@ For a more detailed analysis of this Template see our blog post here: [http://ic
 
 This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
 
-Additionally, since we're using Autolayout, so iOS 6 or greater is manditory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+Additionally, since we're using Autolayout, iOS 6 or greater is mandatory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
 
 ## Copyright License ##
 
