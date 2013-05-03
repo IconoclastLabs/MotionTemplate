@@ -20,6 +20,10 @@ For a more detailed analysis of this Template see our blog post here: [http://ic
 ![MotionTemplate Screenshot](http://i.imgur.com/2Ryn6oS.png "MotionTemplate")
 ![MotionTemplate Settings](http://i.imgur.com/ffZKLAn.png "MotionTemplateSettings")
 
+## Themes ##
+Change the style in `AppProperties` so you can implement multiple themes.  Here's setting the `self.root_style` to `:basic` 
+![MotionTemplate Basic](http://i.imgur.com/ZsRKqLW.png "MotionTemplateBasic")
+
 ## Requirements ##
 
 This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
