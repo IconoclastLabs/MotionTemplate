@@ -1,5 +1,5 @@
 Teacup::Stylesheet.new :settings do
-  import :base
+  import :basic
 
   v_padding = 10
   h_padding = 10
