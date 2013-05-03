@@ -7,7 +7,7 @@ require 'sugarcube-568'
 require 'sugarcube-repl'
 
 
-require './app_properties'
+require './lib/app_properties'
 props = AppProperties.new
 
 
@@ -21,13 +21,13 @@ Motion::Project::App.setup do |app|
   app.short_version = props.version #required to be incremented for AppStore (http://iconoclastlabs.com/cms/blog/posts/updating-a-rubymotion-app-store-submission)
   app.device_family = props.devices
   #app.icons = props.icons
-  app.provisioning_profile = props.provisioning
+  #app.provisioning_profile = props.provisioning
   app.release do
     app.codesign_certificate = props.distribution_certificate
   end
-  app.development do
-    app.codesign_certificate = props.developer_certificate
-  end
+  # app.development do
+  #   app.codesign_certificate = props.developer_certificate
+  # end
   # include external files
   app.files += props.render_files(app)
 
