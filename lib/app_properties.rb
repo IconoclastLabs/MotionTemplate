@@ -12,7 +12,7 @@ class AppProperties
   end
 
   def self.root_style
-    :basic # could also be - :basic_leather
+    :base_leather # could also be - :basic
   end
 
   def frameworks
