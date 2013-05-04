@@ -1,5 +1,5 @@
 class AppProperties
-  VERSION = '1.4'
+  VERSION = '1.5'
   SKU_NAME = 'motiontemplate' 
   COMPANY_NAME = 'com.iconoclastlabs.'
 

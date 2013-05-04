@@ -6,20 +6,24 @@
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust boilerplate!*
 
 What Features are included?
+
+#### GEMS ####
 * [Teacup](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
 * [Bubblewrap](https://github.com/rubymotion/BubbleWrap) - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.
 * [Sugarcube](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts for iOS annoyances and verbosity.
 * [Sweettea](https://github.com/colinta/sweettea) - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.
+* [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
+* [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
+* [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
+* [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) - Run `rake rubberstamp:run` to stamp your versions right onto your icons for dev!
+#### Conventions ####
 * [Splash Screen](https://github.com/IconoclastLabs/SplashMotion) - Implemented Splash screen logic, ready to go!
+* [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
+* [AppProperties Class](http://rubysource.com/rubymotion-workflow-customizations/) - The rakefile has been generalized and most configurations are in the `app_properties.rb` for clarity.  Don't forget to point provisioning to a symlink (allowing multiple users for the same source).
 * [Custom UI Skins](http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&WT.seg_1=search_thumb&WT.z_author=rebirthpixel) - Using custom styling so you can quickly change the application flavor.
   * Base Leather
   * Basic
   * More to come!?  Fork us!
-* [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
-* [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
-* [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
-* [AppProperties Class](http://rubysource.com/rubymotion-workflow-customizations/) - The rakefile has been generalized and most configurations are in the `app_properties.rb` for clarity.  Don't forget to point provisioning to a symlink (allowing multiple users for the same source).
-* [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
 
 Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
