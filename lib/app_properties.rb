@@ -11,6 +11,10 @@ class AppProperties
     VERSION
   end
 
+  def self.root_style
+    :base_leather # could also be - :basic
+  end
+
   def frameworks
     ['MessageUI']
   end
