@@ -9,7 +9,7 @@ gem "motion-awesome"
 gem "motion-map"
 gem "geomotion"
 gem "motion-xray"
-gem "motion-rubberstamp", :path => "~/Projects/apps/gems/motion-rubberstamp"
+gem "motion-rubberstamp"
 #gem "sugarcube-repl"
 group :development do
 	gem "awesome_print_motion"
