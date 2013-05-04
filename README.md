@@ -5,7 +5,7 @@
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust boilerplate!*
 
-What Features are included?
+________________________
 
 #### GEMS ####
 * [Teacup](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
@@ -16,6 +16,7 @@ What Features are included?
 * [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
 * [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
 * [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) - Run `rake rubberstamp:run` to stamp your versions right onto your icons for dev!
+
 #### Conventions ####
 * [Splash Screen](https://github.com/IconoclastLabs/SplashMotion) - Implemented Splash screen logic, ready to go!
 * [iOS 6 Autolayout](http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html) - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.
@@ -24,6 +25,8 @@ What Features are included?
   * Base Leather
   * Basic
   * More to come!?  Fork us!
+
+________________________
 
 Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
@@ -36,9 +39,9 @@ Change the style in `AppProperties` so you can implement multiple themes.  Here'
 
 ## Requirements ##
 
-This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
-
-Additionally, since we're using Autolayout, iOS 6 or greater is mandatory.  If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+* This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
+* *iOS 6 or greater is mandatory* If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+* *imagemagick and ghostscript* Are needed if you plan on using [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) to stamp your icons.
 
 ## Copyright License ##
 
