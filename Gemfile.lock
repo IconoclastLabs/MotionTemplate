@@ -1,8 +1,3 @@
-PATH
-  remote: ~/Projects/apps/gems/motion-rubberstamp
-  specs:
-    motion-rubberstamp (0.0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -12,6 +7,7 @@ GEM
     motion-awesome (0.0.4)
       motion-map
     motion-map (0.0.4)
+    motion-rubberstamp (0.0.1)
     motion-xray (1.0.4)
       geomotion (>= 0.10.0)
       sugarcube (>= 0.20.1)
@@ -32,7 +28,7 @@ DEPENDENCIES
   geomotion
   motion-awesome
   motion-map
-  motion-rubberstamp!
+  motion-rubberstamp
   motion-xray
   sugarcube
   sweettea
