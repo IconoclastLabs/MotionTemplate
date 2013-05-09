@@ -2,9 +2,9 @@ include SugarCube::Adjust
 
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    #@window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     # Adding Motion-Xray's UIWindow shim
-    @window = Motion::Xray::XrayWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+    #@window = Motion::Xray::XrayWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     myNavController = RootController.alloc.init
 
     @window.rootViewController = UINavigationController.alloc.initWithRootViewController(myNavController)
@@ -26,7 +26,7 @@ class AppDelegate
     }
 
     # include the SaveUIPlugin, which is not included by default
-    Motion::Xray.register(Motion::Xray::SaveUIPlugin.new)
+    #Motion::Xray.register(Motion::Xray::SaveUIPlugin.new)
 
     true
   end
