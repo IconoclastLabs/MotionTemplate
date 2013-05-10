@@ -30,8 +30,8 @@ ________________________
 
 Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
-![MotionTemplate Screenshot](http://i.imgur.com/2Ryn6oS.png "MotionTemplate")
-![MotionTemplate Settings](http://i.imgur.com/ffZKLAn.png "MotionTemplateSettings")
+![MotionTemplate Screenshot](http://i.imgur.com/dciswLo.png "MotionTemplate")
+![MotionTemplate Settings](http://i.imgur.com/udLvcgu.png "MotionTemplateSettings")
 
 ## Themes ##
 Change the style in `AppProperties` so you can implement multiple themes.  Here's setting the `self.root_style` to `:basic` 
