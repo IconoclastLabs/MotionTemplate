@@ -1,15 +1,14 @@
 Teacup::Stylesheet.new :base_leather do
-  back_color = 0xc3a477.uicolor 
-  dark_color = 0x4d3e33.uicolor
-  mid_color = 0x9f8061.uicolor
+  @back_color = 0xc3a477.uicolor 
+  @dark_color = 0x4d3e33.uicolor
+  @mid_color = 0x9f8061.uicolor
 
   style UIView,
     backgroundColor: 'background'.uicolor,
     nav_background: {
       normal: 'custom_nav',
       landscape: 'custom_landscape_nav'
-      },
-    nav_btn_tint: mid_color
+      }
 
   style :custom_label,
     text: 'App Stuff!',
@@ -20,7 +19,7 @@ Teacup::Stylesheet.new :base_leather do
     shadowColor: :black,
     textAlignment: UITextAlignmentCenter,
     layer: {
-      transform: identity,
+      transform: transform_layer.identity,
       shadowRadius: 20,
       shadowOpacity: 0.5,
       masksToBounds: false
@@ -44,11 +43,11 @@ Teacup::Stylesheet.new :base_leather do
     on: true
 
   style :color_button,
-    backgroundColor: mid_color,
+    backgroundColor: @mid_color,
     title: "Custom Color Button - No Images",
     height: 34,
     layer: {
-      borderColor: dark_color,
+      borderColor: @dark_color,
       borderWidth: 0.5,
       cornerRadius: 10
     }
@@ -60,7 +59,7 @@ Teacup::Stylesheet.new :base_leather do
     backgroundColor: :clear
 
   style :custom_segmented,
-    tintColor: mid_color
+    tintColor: @mid_color
 
   style :custom_texture_segmented,
     texture: {
@@ -85,4 +84,9 @@ Teacup::Stylesheet.new :base_leather do
     backgroundColor: :clear,
     shadowColor: :black,
     adjustsFontSizeToFitWidth: true
+
+  Teacup::Appearance.new do
+    style UIBarButtonItem,
+      tintColor: 0x9f8061.uicolor
+  end
 end

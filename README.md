@@ -8,7 +8,7 @@ your RubyMotion application.  Simply strip out the features you don't need, and 
 ________________________
 
 #### GEMS ####
-* [Teacup](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
+* [Teacup v2](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
 * [Bubblewrap](https://github.com/rubymotion/BubbleWrap) - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.
 * [Sugarcube](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts for iOS annoyances and verbosity.
 * [Sweettea](https://github.com/colinta/sweettea) - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.
@@ -39,6 +39,7 @@ Change the style in `AppProperties` so you can implement multiple themes.  Here'
 
 ## Requirements ##
 
+* Requires RubyMotion 2.0 (see tags if you are not 2.0)
 * This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
 * *iOS 6 or greater is mandatory* If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
 * *imagemagick and ghostscript* Are needed if you plan on using [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) to stamp your icons.

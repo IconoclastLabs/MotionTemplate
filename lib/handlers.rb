@@ -5,10 +5,6 @@ Teacup.handler UIView, :nav_background do |view, hash|
   UINavigationBar.appearance.setTitleVerticalPositionAdjustment(7.0, forBarMetrics:UIBarMetricsLandscapePhone)
 end
 
-Teacup.handler UIView, :nav_btn_tint do |color|
- 	UIBarButtonItem.appearance.setTintColor(color)
-end
-
 Teacup.handler UIRoundedRectButton, :button_background do |view, image, text_color|
   text_color ||= UIColor.whiteColor
   view.setBackgroundImage(image.uiimage, forState:UIControlStateNormal)
