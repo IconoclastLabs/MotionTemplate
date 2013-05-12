@@ -14,7 +14,6 @@ ________________________
 * [Sweettea](https://github.com/colinta/sweettea) - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.
 * [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
 * [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
-* [Motion X-Ray](https://github.com/colinta/motion-xray) - Performing a shake gesture on the app allows you to inspect your application in extreme detail!
 * [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) - Run `rake rubberstamp:run` to stamp your versions right onto your icons for dev!
 
 #### Conventions ####
@@ -27,6 +26,8 @@ ________________________
   * More to come!?  Fork us!
 
 ________________________
+
+Still on RubyMotion 1.x? Use this branch [rm1.x](https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x)
 
 Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
