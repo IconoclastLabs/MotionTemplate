@@ -88,7 +88,5 @@ Teacup::Stylesheet.new :base_leather do
   Teacup::Appearance.new do
     style UIBarButtonItem,
       tintColor: 0x9f8061.uicolor
-
-    
   end
 end
