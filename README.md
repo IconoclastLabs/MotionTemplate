@@ -10,7 +10,7 @@ Run this command to install the template
 
   `$ git clone git@github.com:IconoclastLabs/MotionTemplate.git ~/Library/RubyMotion/template/motiontemplate`
 
-Creat your project using this template!
+Create your project using this template!
 
   `$ motion create --template=motiontemplate <myappname>`
 ________________________
