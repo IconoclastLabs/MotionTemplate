@@ -3,8 +3,16 @@
 [![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
 
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
-your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust boilerplate!*
+your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
 
+## Install Template
+Run this command to install the template
+
+  `$ git clone git@github.com:IconoclastLabs/MotionTemplate.git ~/Library/RubyMotion/template/motiontemplate`
+
+Creat your project using this template!
+
+  `$ motion create --template=motiontemplate <myappname>`
 ________________________
 
 #### GEMS ####
@@ -27,10 +35,6 @@ ________________________
 
 ________________________
 
-Still on RubyMotion 1.x? Use this branch [rm1.x](https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x)
-
-Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
-
 ![MotionTemplate Screenshot](http://i.imgur.com/dciswLo.png "MotionTemplate")
 ![MotionTemplate Settings](http://i.imgur.com/udLvcgu.png "MotionTemplateSettings")
 
@@ -40,7 +44,7 @@ Change the style in `AppProperties` so you can implement multiple themes.  Here'
 
 ## Requirements ##
 
-* Requires RubyMotion 2.0 (see tags if you are not 2.0)
+* Requires RubyMotion 2.0 (see [Tag for rubymotion 1.x](https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x) if you are not 2.0 - Not a template just a project) 
 * This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
 * *iOS 6 or greater is mandatory* If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
 * *imagemagick and ghostscript* Are needed if you plan on using [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) to stamp your icons.
@@ -59,6 +63,8 @@ See [LICENSE](https://github.com/IconoclastLabs/MotionTemplate/blob/master/LICEN
 As always we're opent to pull requests/issues!
 
 Special thanks to Colin T.A. Gray for answering questions and writing/maintaining some of the key gems in this project.
+
+The outdated but original blog post on this Template can be found here: Blog on the original template: [http://iconoclastlabs.com/cms/blog/posts/rubymotion-template](http://iconoclastlabs.com/cms/blog/posts/rubymotion-template)
 
 If you'd like to send inquiries, compliments or criticisms you can find us here
 ![contact](https://s3.amazonaws.com/iconoclastweb/email_pic.png)
