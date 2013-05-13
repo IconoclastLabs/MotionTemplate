@@ -7,14 +7,14 @@ GEM
     motion-awesome (0.0.4)
       motion-map
     motion-map (0.0.4)
-    motion-rubberstamp (0.0.4)
+    motion-rubberstamp (0.0.5)
     rake (10.0.4)
     sugarcube (0.20.20)
     sweettea (0.5.6)
       rake
       sugarcube
       teacup
-    teacup (2.0.0)
+    teacup (2.0.2)
 
 PLATFORMS
   ruby
