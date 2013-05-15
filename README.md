@@ -5,14 +5,20 @@
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
 
-## Install Template
+### Install Template
 Run this command to install the template
 
   `$ git clone git@github.com:IconoclastLabs/MotionTemplate.git ~/Library/RubyMotion/template/motiontemplate`
 
+### Use the Template
 Create your project using this template!
 
   `$ motion create --template=motiontemplate <myappname>`
+
+### Stay Current
+The following command should pull the latest code for this template to be used in future `motion create` use!
+
+  `$ GIT_DIR=~/Library/RubyMotion/template/motiontemplate/.git git pull origin master`
 ________________________
 
 #### GEMS ####
