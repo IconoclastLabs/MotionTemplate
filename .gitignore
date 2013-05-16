@@ -4,4 +4,4 @@ resources/*.nib
 resources/*.momd
 resources/*.storyboardc
 tags
-
+.DS_Store
