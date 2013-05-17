@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "teacup"
 gem "sugarcube"
 gem "sweettea"
-gem 'bubble-wrap', '~> 1.3.0.osx'
+gem 'bubble-wrap'
 gem "motion-awesome"
 gem "motion-map"
 gem "geomotion"
