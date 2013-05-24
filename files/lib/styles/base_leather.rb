@@ -4,10 +4,10 @@ Teacup::Stylesheet.new :base_leather do
   @mid_color = 0x9f8061.uicolor
 
   style UIView,
-    backgroundColor: 'background'.uicolor,
+    backgroundColor: 'base_leather/background'.uicolor,
     nav_background: {
-      normal: 'custom_nav',
-      landscape: 'custom_landscape_nav'
+      normal: 'base_leather/custom_nav',
+      landscape: 'base_leather/custom_landscape_nav'
       }
 
   style :custom_label,
@@ -29,17 +29,17 @@ Teacup::Stylesheet.new :base_leather do
     width: 292,
     height: 42,
     title: "Custom Long Button",
-    button_background: 'large_button'
+    button_background: 'base_leather/large_button'
 
   style :custom_button,
     width: 142,
     height: 34,
     title: "Custom Button",
-    button_background: 'button'
+    button_background: 'base_leather/button'
 
   style :custom_switch,
-    onImage: 'switch'.uiimage,
-    offImage: 'switch_off'.uiimage,
+    onImage: 'base_leather/switch'.uiimage,
+    offImage: 'base_leather/switch_off'.uiimage,
     on: true
 
   style :color_button,
@@ -53,7 +53,7 @@ Teacup::Stylesheet.new :base_leather do
     }
 
   style :settings_button,
-    button_background: 'gear',
+    button_background: 'base_leather/gear',
     height: 18,
     width: 18,
     backgroundColor: :clear
@@ -63,15 +63,15 @@ Teacup::Stylesheet.new :base_leather do
 
   style :custom_texture_segmented,
     texture: {
-        segmentImage: 'segment',
-        backgroundOn: 'button'
+        segmentImage: 'base_leather/segment',
+        backgroundOn: 'base_leather/button'
       }
 
   style :custom_slider,
       texture: {
-        minImage: 'slider',
-        maxImage: 'slider_off',
-        thumbImage: 'knob'
+        minImage: 'base_leather/slider',
+        maxImage: 'base_leather/slider_off',
+        thumbImage: 'base_leather/knob'
       },
       value: 0.5
 
