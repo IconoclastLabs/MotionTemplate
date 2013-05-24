@@ -14,6 +14,8 @@
 	<string>0xf038</string>
 	<key>icon-ambulance</key>
 	<string>0xf0f9</string>
+	<key>icon-anchor</key>
+	<string>0xf13d</string>
 	<key>icon-angle-down</key>
 	<string>0xf107</string>
 	<key>icon-angle-left</key>
@@ -64,8 +66,12 @@
 	<string>0xf0f7</string>
 	<key>icon-bullhorn</key>
 	<string>0xf0a1</string>
+	<key>icon-bullseye</key>
+	<string>0xf140</string>
 	<key>icon-calendar</key>
 	<string>0xf073</string>
+	<key>icon-calendar-empty</key>
+	<string>0xf133</string>
 	<key>icon-camera</key>
 	<string>0xf030</string>
 	<key>icon-camera-retro</key>
@@ -84,12 +90,24 @@
 	<string>0xf046</string>
 	<key>icon-check-empty</key>
 	<string>0xf096</string>
+	<key>icon-check-minus</key>
+	<string>0xf147</string>
+	<key>icon-check-sign</key>
+	<string>0xf14a</string>
 	<key>icon-chevron-down</key>
 	<string>0xf078</string>
 	<key>icon-chevron-left</key>
 	<string>0xf053</string>
 	<key>icon-chevron-right</key>
 	<string>0xf054</string>
+	<key>icon-chevron-sign-down</key>
+	<string>0xf13a</string>
+	<key>icon-chevron-sign-left</key>
+	<string>0xf137</string>
+	<key>icon-chevron-sign-right</key>
+	<string>0xf138</string>
+	<key>icon-chevron-sign-up</key>
+	<string>0xf139</string>
 	<key>icon-chevron-up</key>
 	<string>0xf077</string>
 	<key>icon-circle</key>
@@ -110,12 +128,18 @@
 	<string>0xf0ed</string>
 	<key>icon-cloud-upload</key>
 	<string>0xf0ee</string>
+	<key>icon-code</key>
+	<string>0xf121</string>
+	<key>icon-code-fork</key>
+	<string>0xf126</string>
 	<key>icon-coffee</key>
 	<string>0xf0f4</string>
 	<key>icon-cog</key>
 	<string>0xf013</string>
 	<key>icon-cogs</key>
 	<string>0xf085</string>
+	<key>icon-collapse-alt</key>
+	<string>0xf117</string>
 	<key>icon-columns</key>
 	<string>0xf0db</string>
 	<key>icon-comment</key>
@@ -130,6 +154,10 @@
 	<string>0xf0c5</string>
 	<key>icon-credit-card</key>
 	<string>0xf09d</string>
+	<key>icon-crop</key>
+	<string>0xf125</string>
+	<key>icon-css3</key>
+	<string>0xf13c</string>
 	<key>icon-cut</key>
 	<string>0xf0c4</string>
 	<key>icon-dashboard</key>
@@ -150,18 +178,32 @@
 	<string>0xf019</string>
 	<key>icon-edit</key>
 	<string>0xf044</string>
+	<key>icon-edit-sign</key>
+	<string>0xf14b</string>
 	<key>icon-eject</key>
 	<string>0xf052</string>
+	<key>icon-ellipsis-horizontal</key>
+	<string>0xf141</string>
+	<key>icon-ellipsis-vertical</key>
+	<string>0xf142</string>
 	<key>icon-envelope</key>
 	<string>0xf003</string>
 	<key>icon-envelope-alt</key>
 	<string>0xf0e0</string>
+	<key>icon-eraser</key>
+	<string>0xf12d</string>
 	<key>icon-exchange</key>
 	<string>0xf0ec</string>
+	<key>icon-exclamation</key>
+	<string>0xf12a</string>
 	<key>icon-exclamation-sign</key>
 	<string>0xf06a</string>
+	<key>icon-expand-alt</key>
+	<string>0xf116</string>
 	<key>icon-external-link</key>
 	<string>0xf08e</string>
+	<key>icon-external-link-sign</key>
+	<string>0xf14c</string>
 	<key>icon-eye-close</key>
 	<string>0xf070</string>
 	<key>icon-eye-open</key>
@@ -188,8 +230,18 @@
 	<string>0xf0b0</string>
 	<key>icon-fire</key>
 	<string>0xf06d</string>
+	<key>icon-fire-extinguisher</key>
+	<string>0xf134</string>
 	<key>icon-flag</key>
 	<string>0xf024</string>
+	<key>icon-flag-alt</key>
+	<string>0xf11d</string>
+	<key>icon-flag-checkered</key>
+	<string>0xf11e</string>
+	<key>icon-flip-horizontal</key>
+	<string>0x</string>
+	<key>icon-flip-vertical</key>
+	<string>0x</string>
 	<key>icon-folder-close</key>
 	<string>0xf07b</string>
 	<key>icon-folder-close-alt</key>
@@ -204,14 +256,16 @@
 	<string>0xf0f5</string>
 	<key>icon-forward</key>
 	<string>0xf04e</string>
+	<key>icon-frown</key>
+	<string>0xf119</string>
 	<key>icon-fullscreen</key>
 	<string>0xf0b2</string>
+	<key>icon-gamepad</key>
+	<string>0xf11b</string>
 	<key>icon-gift</key>
 	<string>0xf06b</string>
 	<key>icon-github</key>
 	<string>0xf09b</string>
-	<key>icon-github-alt</key>
-	<string>0xf113</string>
 	<key>icon-github-sign</key>
 	<string>0xf092</string>
 	<key>icon-glass</key>
@@ -246,18 +300,24 @@
 	<string>0xf015</string>
 	<key>icon-hospital</key>
 	<string>0xf0f8</string>
+	<key>icon-html5</key>
+	<string>0xf13b</string>
 	<key>icon-inbox</key>
 	<string>0xf01c</string>
 	<key>icon-indent-left</key>
 	<string>0xf03b</string>
 	<key>icon-indent-right</key>
 	<string>0xf03c</string>
+	<key>icon-info</key>
+	<string>0xf129</string>
 	<key>icon-info-sign</key>
 	<string>0xf05a</string>
 	<key>icon-italic</key>
 	<string>0xf033</string>
 	<key>icon-key</key>
 	<string>0xf084</string>
+	<key>icon-keyboard</key>
+	<string>0xf11c</string>
 	<key>icon-laptop</key>
 	<string>0xf109</string>
 	<key>icon-leaf</key>
@@ -266,6 +326,10 @@
 	<string>0xf0e3</string>
 	<key>icon-lemon</key>
 	<string>0xf094</string>
+	<key>icon-level-down</key>
+	<string>0xf149</string>
+	<key>icon-level-up</key>
+	<string>0xf148</string>
 	<key>icon-lightbulb</key>
 	<string>0xf0eb</string>
 	<key>icon-link</key>
@@ -282,20 +346,38 @@
 	<string>0xf0cb</string>
 	<key>icon-list-ul</key>
 	<string>0xf0ca</string>
+	<key>icon-location-arrow</key>
+	<string>0xf124</string>
 	<key>icon-lock</key>
 	<string>0xf023</string>
 	<key>icon-magic</key>
 	<string>0xf0d0</string>
 	<key>icon-magnet</key>
 	<string>0xf076</string>
+	<key>icon-mail-forward</key>
+	<string>0xf064</string>
+	<key>icon-mail-reply</key>
+	<string>0xf112</string>
+	<key>icon-mail-reply-all</key>
+	<string>0xf122</string>
 	<key>icon-map-marker</key>
 	<string>0xf041</string>
+	<key>icon-maxcdn</key>
+	<string>0xf136</string>
 	<key>icon-medkit</key>
 	<string>0xf0fa</string>
+	<key>icon-meh</key>
+	<string>0xf11a</string>
+	<key>icon-microphone</key>
+	<string>0xf130</string>
+	<key>icon-microphone-off</key>
+	<string>0xf131</string>
 	<key>icon-minus</key>
 	<string>0xf068</string>
 	<key>icon-minus-sign</key>
 	<string>0xf056</string>
+	<key>icon-minus-sign-alt</key>
+	<string>0xf146</string>
 	<key>icon-mobile-phone</key>
 	<string>0xf10b</string>
 	<key>icon-money</key>
@@ -336,6 +418,8 @@
 	<string>0xf04b</string>
 	<key>icon-play-circle</key>
 	<string>0xf01d</string>
+	<key>icon-play-sign</key>
+	<string>0xf144</string>
 	<key>icon-plus</key>
 	<string>0xf067</string>
 	<key>icon-plus-sign</key>
@@ -346,8 +430,12 @@
 	<string>0xf02f</string>
 	<key>icon-pushpin</key>
 	<string>0xf08d</string>
+	<key>icon-puzzle-piece</key>
+	<string>0xf12e</string>
 	<key>icon-qrcode</key>
 	<string>0xf029</string>
+	<key>icon-question</key>
+	<string>0xf128</string>
 	<key>icon-question-sign</key>
 	<string>0xf059</string>
 	<key>icon-quote-left</key>
@@ -370,6 +458,8 @@
 	<string>0xf01e</string>
 	<key>icon-reply</key>
 	<string>0xf112</string>
+	<key>icon-reply-all</key>
+	<string>0xf122</string>
 	<key>icon-resize-full</key>
 	<string>0xf065</string>
 	<key>icon-resize-horizontal</key>
@@ -382,8 +472,22 @@
 	<string>0xf079</string>
 	<key>icon-road</key>
 	<string>0xf018</string>
+	<key>icon-rocket</key>
+	<string>0xf135</string>
+	<key>icon-rotate-180</key>
+	<string>0x</string>
+	<key>icon-rotate-270</key>
+	<string>0x</string>
+	<key>icon-rotate-90</key>
+	<string>0x</string>
+	<key>icon-rotate-left</key>
+	<string>0xf0e2</string>
+	<key>icon-rotate-right</key>
+	<string>0xf01e</string>
 	<key>icon-rss</key>
 	<string>0xf09e</string>
+	<key>icon-rss-sign</key>
+	<string>0xf143</string>
 	<key>icon-save</key>
 	<string>0xf0c7</string>
 	<key>icon-screenshot</key>
@@ -394,6 +498,10 @@
 	<string>0xf045</string>
 	<key>icon-share-alt</key>
 	<string>0xf064</string>
+	<key>icon-share-sign</key>
+	<string>0xf14d</string>
+	<key>icon-shield</key>
+	<string>0xf132</string>
 	<key>icon-shopping-cart</key>
 	<string>0xf07a</string>
 	<key>icon-sign-blank</key>
@@ -406,6 +514,8 @@
 	<string>0xf08b</string>
 	<key>icon-sitemap</key>
 	<string>0xf0e8</string>
+	<key>icon-smile</key>
+	<string>0xf118</string>
 	<key>icon-sort</key>
 	<string>0xf0dc</string>
 	<key>icon-sort-down</key>
@@ -420,6 +530,10 @@
 	<string>0xf006</string>
 	<key>icon-star-half</key>
 	<string>0xf089</string>
+	<key>icon-star-half-empty</key>
+	<string>0xf123</string>
+	<key>icon-star-half-full</key>
+	<string>0xf123</string>
 	<key>icon-step-backward</key>
 	<string>0xf048</string>
 	<key>icon-step-forward</key>
@@ -430,8 +544,12 @@
 	<string>0xf04d</string>
 	<key>icon-strikethrough</key>
 	<string>0xf0cc</string>
+	<key>icon-subscript</key>
+	<string>0xf12c</string>
 	<key>icon-suitcase</key>
 	<string>0xf0f2</string>
+	<key>icon-superscript</key>
+	<string>0xf12b</string>
 	<key>icon-table</key>
 	<string>0xf0ce</string>
 	<key>icon-tablet</key>
@@ -442,6 +560,8 @@
 	<string>0xf02c</string>
 	<key>icon-tasks</key>
 	<string>0xf0ae</string>
+	<key>icon-terminal</key>
+	<string>0xf120</string>
 	<key>icon-text-height</key>
 	<string>0xf034</string>
 	<key>icon-text-width</key>
@@ -456,6 +576,8 @@
 	<string>0xf088</string>
 	<key>icon-thumbs-up</key>
 	<string>0xf087</string>
+	<key>icon-ticket</key>
+	<string>0xf145</string>
 	<key>icon-time</key>
 	<string>0xf017</string>
 	<key>icon-tint</key>
@@ -476,8 +598,12 @@
 	<string>0xf0cd</string>
 	<key>icon-undo</key>
 	<string>0xf0e2</string>
+	<key>icon-unlink</key>
+	<string>0xf127</string>
 	<key>icon-unlock</key>
 	<string>0xf09c</string>
+	<key>icon-unlock-alt</key>
+	<string>0xf13e</string>
 	<key>icon-upload</key>
 	<string>0xf01b</string>
 	<key>icon-upload-alt</key>
