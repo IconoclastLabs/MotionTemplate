@@ -19,6 +19,16 @@ Create your project using this template!
 The following command should pull the latest code for this template to be used in future `motion create` use!
 
   `$ GIT_DIR=~/Library/RubyMotion/template/motiontemplate/.git git pull origin master`
+  
+### External Dependencies
+The *motion-rubberstamp* gem relies on imagemagick and ghostscript, which
+can easily be installed via [Homebrew](http://mxcl.github.io/homebrew/):
+
+    $ brew install imagemagick
+
+    $ brew install ghostscript
+    
+Otherwise you'll need to comment out this gem.
 ________________________
 
 #### GEMS ####
