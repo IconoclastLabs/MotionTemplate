@@ -31,37 +31,125 @@
         <hr>
 
         <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+          <h1>
+<a name="motiontemplate" class="anchor" href="#motiontemplate"><span class="octicon octicon-link"></span></a>MotionTemplate</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p><a href="https://travis-ci.org/IconoclastLabs/MotionTemplate"><img src="https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png" alt="Build Status"></a></p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p><em>Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
+your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!</em></p>
+
+<h3>
+<a name="install-template" class="anchor" href="#install-template"><span class="octicon octicon-link"></span></a>Install Template</h3>
+
+<p>Run this command to install the template</p>
+
+<p><code>$ git clone git@github.com:IconoclastLabs/MotionTemplate.git ~/Library/RubyMotion/template/motiontemplate</code></p>
+
+<h3>
+<a name="use-the-template" class="anchor" href="#use-the-template"><span class="octicon octicon-link"></span></a>Use the Template</h3>
+
+<p>Create your project using this template!</p>
+
+<p><code>$ motion create --template=motiontemplate &lt;myappname&gt;</code></p>
+
+<h3>
+<a name="stay-current" class="anchor" href="#stay-current"><span class="octicon octicon-link"></span></a>Stay Current</h3>
+
+<p>The following command should pull the latest code for this template to be used in future <code>motion create</code> use!</p>
+
+<p><code>$ GIT_DIR=~/Library/RubyMotion/template/motiontemplate/.git git pull origin master</code></p>
+
+<h3>
+<a name="external-dependencies" class="anchor" href="#external-dependencies"><span class="octicon octicon-link"></span></a>External Dependencies</h3>
+
+<p>The <em>motion-rubberstamp</em> gem relies on imagemagick and ghostscript, which
+can easily be installed via <a href="http://mxcl.github.io/homebrew/">Homebrew</a>:</p>
+
+<pre><code>$ brew install imagemagick
+
+$ brew install ghostscript
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Otherwise you'll need to comment out this gem.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<hr><h4>
+<a name="gems" class="anchor" href="#gems"><span class="octicon octicon-link"></span></a>GEMS</h4>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<ul>
+<li>
+<a href="https://github.com/rubymotion/teacup">Teacup v2</a> - DSL for CSS-esque styling.</li>
+<li>
+<a href="https://github.com/rubymotion/BubbleWrap">Bubblewrap</a> - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.</li>
+<li>
+<a href="https://github.com/rubymotion/sugarcube">Sugarcube</a> - Simplification and shortcuts for iOS annoyances and verbosity.</li>
+<li>
+<a href="https://github.com/colinta/sweettea">Sweettea</a> - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.</li>
+<li>
+<a href="https://github.com/michaeldv/awesome_print_motion">Motion Awesome Print</a> - Awesome print <code>ap</code> for RubyMotion.  Colorized, Multi-line, Detailed print inspection.</li>
+<li>
+<a href="https://github.com/derailed/motion-awesome">Motion Awesome</a> - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.</li>
+<li>
+<a href="https://github.com/IconoclastLabs/motion-rubberstamp">Motion-Rubberstamp</a> - Run <code>rake rubberstamp:run</code> to stamp your versions right onto your icons for dev!</li>
+</ul><h4>
+<a name="conventions" class="anchor" href="#conventions"><span class="octicon octicon-link"></span></a>Conventions</h4>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<ul>
+<li>
+<a href="https://github.com/IconoclastLabs/SplashMotion">Splash Screen</a> - Implemented Splash screen logic, ready to go!</li>
+<li>
+<a href="http://developer.apple.com/library/ios/#recipes/xcode_help-interface_builder/articles/UnderstandingAutolayout.html">iOS 6 Autolayout</a> - Using Auto Layout via Teacup's constrains to help the UI to flow and scale as needed.</li>
+<li>
+<a href="http://rubysource.com/rubymotion-workflow-customizations/">AppProperties Class</a> - The rakefile has been generalized and most configurations are in the <code>app_properties.rb</code> for clarity.  Don't forget to point provisioning to a symlink (allowing multiple users for the same source).</li>
+<li>
+<a href="http://graphicriver.net/item/ui-pack-for-ios-by-rebirthpixel/2577167?WT.ac=search_thumb&amp;WT.seg_1=search_thumb&amp;WT.z_author=rebirthpixel">Custom UI Skins</a> - Using custom styling so you can quickly change the application flavor.
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<ul>
+<li>Base Leather</li>
+<li>Basic</li>
+<li>More to come!?  Fork us!</li>
+</ul>
+</li>
+</ul><hr><p><img src="http://i.imgur.com/dciswLo.png" alt="MotionTemplate Screenshot" title="MotionTemplate"><img src="http://i.imgur.com/udLvcgu.png" alt="MotionTemplate Settings" title="MotionTemplateSettings"></p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<h2>
+<a name="themes" class="anchor" href="#themes"><span class="octicon octicon-link"></span></a>Themes</h2>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Change the style in <code>AppProperties</code> so you can implement multiple themes.  Here's setting the <code>self.root_style</code> to <code>:basic</code> 
+<img src="http://i.imgur.com/ZsRKqLW.png" alt="MotionTemplate Basic" title="MotionTemplateBasic"></p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h2>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<ul>
+<li>Requires RubyMotion 2.0 (see <a href="https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x">Tag for rubymotion 1.x</a> if you are not 2.0 - Not a template just a project) </li>
+<li>This is a RubyMotion Project with all dependencies listed in <a href="https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile">the Gem file</a>.</li>
+<li>
+<em>iOS 6 or greater is mandatory</em> If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.</li>
+<li>
+<em>imagemagick and ghostscript</em> Are needed if you plan on using <a href="https://github.com/IconoclastLabs/motion-rubberstamp">Motion-Rubberstamp</a> to stamp your icons.</li>
+</ul><h2>
+<a name="copyright-license" class="anchor" href="#copyright-license"><span class="octicon octicon-link"></span></a>Copyright License</h2>
+
+<p>The graphical assets are not permitted for redistribution.  We bought
+the license to use them here, and their extraction or reuse is not permitted
+under our purchase license.</p>
+
+<p>The code is completely open under MIT License.</p>
+
+<p>See <a href="https://github.com/IconoclastLabs/MotionTemplate/blob/master/LICENSE">LICENSE</a> file for full details.</p>
+
+<h2>
+<a name="requests-and-credits" class="anchor" href="#requests-and-credits"><span class="octicon octicon-link"></span></a>Requests and Credits</h2>
+
+<p>As always we're opent to pull requests/issues!</p>
+
+<p>Special thanks to Colin T.A. Gray for answering questions and writing/maintaining some of the key gems in this project.</p>
+
+<p>The outdated but original blog post on this Template can be found here: Blog on the original template: <a href="http://iconoclastlabs.com/cms/blog/posts/rubymotion-template">http://iconoclastlabs.com/cms/blog/posts/rubymotion-template</a></p>
+
+<p>If you'd like to send inquiries, compliments or criticisms you can find us here
+<img src="https://s3.amazonaws.com/iconoclastweb/email_pic.png" alt="contact"></p>
         </section>
 
         <footer>
