@@ -24,6 +24,8 @@ class RootController < UIViewController
   	@gear.addTarget(self, action:'push_settings', forControlEvents:UIControlEventTouchUpInside)
   	@nav_bar_button = UIBarButtonItem.alloc.initWithCustomView(@gear)
     self.navigationItem.rightBarButtonItem = @nav_bar_button
+
+    "http://www.IconoclastLabs.com".nsurl.open
   end
 
   def push_settings

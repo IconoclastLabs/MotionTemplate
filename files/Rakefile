@@ -3,8 +3,16 @@ $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
 require 'bundler'
 Bundler.require
-require 'sugarcube-568'
-require 'sugarcube-repl'
+require 'sugarcube-568' # for automatically using 568
+require 'sugarcube-repl' # for repl adjusts
+require 'sugarcube-uikit' #for .uiimage use
+require 'sugarcube-constants' #for uikit
+require 'sugarcube-events' #for .on events
+require 'sugarcube-uicolor' #for uicolor items
+require 'sugarcube-factories' #to generate the UI items
+require 'sugarcube-animations' #for splash screen
+require 'sugarcube-nsdata' # for .nsurl
+require 'sugarcube-awesome' #trying this out
 
 
 require './lib/app_properties'

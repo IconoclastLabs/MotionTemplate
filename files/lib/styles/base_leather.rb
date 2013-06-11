@@ -17,7 +17,7 @@ Teacup::Stylesheet.new :base_leather do
     font: :bold.uifont(40),
     textColor: :white,
     shadowColor: :black,
-    textAlignment: UITextAlignmentCenter,
+    textAlignment: :center.uialignment,
     layer: {
       transform: transform_layer.identity,
       shadowRadius: 20,

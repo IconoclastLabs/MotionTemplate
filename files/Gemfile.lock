@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/colinta/sugarcube.git
+  revision: a10ba4444535dc13276f47abba1117f3c37b9c2c
+  branch: 1.0
+  specs:
+    sugarcube (1.0.0rc1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,7 +16,6 @@ GEM
     motion-map (0.0.4)
     motion-rubberstamp (0.0.6)
     rake (10.0.4)
-    sugarcube (0.20.21)
     sweettea (0.5.6)
       rake
       sugarcube
@@ -26,6 +32,6 @@ DEPENDENCIES
   motion-awesome
   motion-map
   motion-rubberstamp
-  sugarcube
+  sugarcube!
   sweettea
   teacup

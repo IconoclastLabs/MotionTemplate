@@ -2,14 +2,14 @@
 source "https://rubygems.org"
 
 gem "teacup"
-gem "sugarcube"
+gem "sugarcube", :git => "git://github.com/colinta/sugarcube.git", :branch => "1.0"
 gem "sweettea"
 gem 'bubble-wrap'
 gem "motion-awesome"
 gem "motion-map"
 gem "geomotion"
 #gem "motion-xray"
-gem "motion-rubberstamp"#, :path => "~/Documents/Projects/rubymotion/ios/motion-rubberstamp"
+gem "motion-rubberstamp"#, :git => "git@github.com:IconoclastLabs/motion-rubberstamp.git"
 group :development do
 	gem "awesome_print_motion"
 end
