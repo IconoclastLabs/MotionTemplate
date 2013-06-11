@@ -3,8 +3,10 @@ class SettingsController < UIViewController
 
   layout :settings do
     @label = subview(UILabel, :label)
-    @twitter = subview(MotionAwesome.label(:twitter, text: '@IconoclastLabs'), :twitter_label)
-    @site_button = subview(MotionAwesome.button(:beaker, text: 'Iconoclast Labs Website'), :site_button)
+    @twitter = subview(UILabel, :twitter_label)
+    @site_button = subview(UIButton.rounded_rect, :site_button)
+    #@site_button = subview(MotionAwesome.button(:beaker, text: 'Iconoclast Labs Website'), :site_button)
+
   end  
 
   def layoutDidLoad

@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem "teacup"
-gem "sugarcube", :git => "git://github.com/colinta/sugarcube.git", :branch => "1.0"
+gem "sugarcube", :git => "git://github.com/colinta/sugarcube.git", :branch => "1.0", :require => "sugarcube-common"
 gem "sweettea"
 gem 'bubble-wrap'
 gem "motion-awesome"
