@@ -26,7 +26,7 @@ Teacup::Stylesheet.new :settings do
       constrain_below(:label)
     ],
     backgroundColor: :clear,
-    attributedText: :twitter.awesome_icon + '@IconoclastLabs',
+    attributedText: :twitter.awesome_icon + ' @IconoclastLabs',
     textColor: twitter_blue
 
   style :site_button,
@@ -34,6 +34,9 @@ Teacup::Stylesheet.new :settings do
       constrain(:center_x).equals(:superview, :center_x),
       constrain_below(:twitter_label)
     ],
-    attributedTitle: :beaker.awesome_icon + 'Iconoclast Labs Website'
+    #button normal state
+    normal: { 
+      attributed: :beaker.awesome_icon + ' Iconoclast Labs Website' 
+    }
 
 end
