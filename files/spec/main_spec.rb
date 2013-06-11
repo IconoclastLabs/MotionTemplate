@@ -20,7 +20,7 @@ describe "Application 'SplashMotion'" do
   end
 
   it "should load base stylesheet" do
-    @stylesheet = Teacup::Stylesheet[:base]
+    @stylesheet = Teacup::Stylesheet[:base_leather]
     @stylesheet.nil?.should == false
   end
 end
