@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/colinta/sugarcube.git
-  revision: a10ba4444535dc13276f47abba1117f3c37b9c2c
+  revision: 3aa144bc55d4c7e50b5a557bc4de85e8d2aea28c
   branch: 1.0
   specs:
     sugarcube (1.0.0rc1)
@@ -11,6 +11,8 @@ GEM
     awesome_print_motion (0.1.0)
     bubble-wrap (1.3.0)
     geomotion (0.12.1)
+    motion-awesome (0.0.5)
+      motion-map
     motion-map (0.0.4)
     motion-rubberstamp (0.0.6)
     rake (10.0.4)
@@ -18,7 +20,7 @@ GEM
       rake
       sugarcube
       teacup
-    teacup (2.0.2)
+    teacup (2.0.4)
 
 PLATFORMS
   ruby
@@ -27,6 +29,7 @@ DEPENDENCIES
   awesome_print_motion
   bubble-wrap
   geomotion
+  motion-awesome
   motion-map
   motion-rubberstamp
   sugarcube!

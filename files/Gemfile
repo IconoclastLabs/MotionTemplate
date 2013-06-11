@@ -5,7 +5,7 @@ gem "teacup"
 gem "sugarcube", :git => "git://github.com/colinta/sugarcube.git", :branch => "1.0", :require => "sugarcube-common"
 gem "sweettea"
 gem 'bubble-wrap'
-#gem "motion-awesome" # now handled by sugarcube-awesome
+gem "motion-awesome" # now handled by sugarcube-awesome
 gem "motion-map"
 gem "geomotion"
 #gem "motion-xray"
