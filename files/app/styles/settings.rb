@@ -22,7 +22,7 @@ Teacup::Stylesheet.new :settings do
 
   style :twitter_label,
     constraints: [
-      constrain(:center_x).equals(:superview, :center_x),
+      :center_x,
       constrain_below(:label)
     ],
     backgroundColor: :clear,
@@ -31,7 +31,7 @@ Teacup::Stylesheet.new :settings do
 
   style :site_button,
     constraints: [
-      constrain(:center_x).equals(:superview, :center_x),
+      :center_x,
       constrain_below(:twitter_label)
     ],
     #button normal state

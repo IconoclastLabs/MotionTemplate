@@ -39,20 +39,20 @@ Teacup::Stylesheet.new :root do
 
   style :texture_segmented, extends: :custom_texture_segmented,
     constraints: [
+      :center_x,
       constrain_below(:color_button).plus(v_padding),
-      constrain(:center_x).equals(:superview, :center_x)
     ]
 
   style :segmented, extends: :custom_segmented,
     constraints: [
+      :center_x,
       constrain_below(:texture_segmented).plus(v_padding),
-      constrain(:center_x).equals(:superview, :center_x)
     ]
 
   style :slider, extends: :custom_slider,
     constraints: [
       :full_width,
+      :center_x,
       constrain_below(:segmented).plus(v_padding),
-      constrain(:center_x).equals(:superview, :center_x)
     ]
 end
