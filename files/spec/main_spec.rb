@@ -19,8 +19,8 @@ describe "Application 'SplashMotion'" do
     end
   end
 
-  it "should have base_leather stylesheet" do
-    @stylesheet = Teacup::Stylesheet[:base_leather]
-    @stylesheet.nil?.should == false
+  it "should have theme styles" do
+    Teacup::Stylesheet[:base_leather].should.not == nil
+    Teacup::Stylesheet[:basic].should.not == nil
   end
 end
