@@ -34,7 +34,7 @@ ________________________
 #### GEMS ####
 * [Teacup v2](https://github.com/rubymotion/teacup) - DSL for CSS-esque styling.
 * [Bubblewrap](https://github.com/rubymotion/BubbleWrap) - A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.
-* [Sugarcube](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts for iOS annoyances and verbosity.
+* [Sugarcube v1rc](https://github.com/rubymotion/sugarcube) - Simplification and shortcuts for iOS annoyances and verbosity.
 * [Sweettea](https://github.com/colinta/sweettea) - Coercion and further Sugarcube magic/shortcuts in Teacup's DSL via Handlers.
 * [Motion Awesome Print](https://github.com/michaeldv/awesome_print_motion) - Awesome print `ap` for RubyMotion.  Colorized, Multi-line, Detailed print inspection.
 * [Motion Awesome](https://github.com/derailed/motion-awesome) - The impressive icon set of Font-Awesome imported and ready to use inside of your Motion Project.
