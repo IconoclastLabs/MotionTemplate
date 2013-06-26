@@ -6,7 +6,7 @@
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
 
 ### To Install And Use Template
-You can use this template straight off github if you have RubyMotion >= 2.3
+You can use this template straight off github if you have RubyMotion >= 2.3 (if repo already exists it will do a `git pull`)
   `$ motion create --template=git@github.com:IconoclastLabs/MotionTemplate.git <myappname>`
 
 ### External Dependencies
