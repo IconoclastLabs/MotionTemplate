@@ -59,6 +59,7 @@ Teacup::Stylesheet.new :base_leather do
     backgroundColor: :clear
 
   style :custom_segmented,
+    segmentedControlStyle: :bar.uisegmentedstyle,
     tintColor: @mid_color
 
   style :custom_texture_segmented,
