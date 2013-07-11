@@ -2,6 +2,10 @@
 
 [![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
 
+## iOS7 Note
+*I've started fixing MotionTemplate to not suck on iOS7... I need help.  [See branch here](https://github.com/IconoclastLabs/MotionTemplate/tree/ios7)*
+
+### About
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
 
