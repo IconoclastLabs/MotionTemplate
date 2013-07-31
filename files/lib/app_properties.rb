@@ -16,7 +16,7 @@ class AppProperties
   end
 
   def frameworks
-    ['MessageUI']
+    ['MessageUI', 'Social', 'Accounts']
   end
 
   def contributors
