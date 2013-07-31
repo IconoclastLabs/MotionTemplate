@@ -41,6 +41,7 @@ ________________________
   * Base Leather
   * Basic
   * More to come!?  Fork us!
+* [SocialNetwork Share](http://iconoclastlabs.com/cms/blog/posts/implementing-social-framework-facebook-and-twitter-with-rubymotion) - Share content to SocialFramework items straight from your app.
 
 ________________________
 
