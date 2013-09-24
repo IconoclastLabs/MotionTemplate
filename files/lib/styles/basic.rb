@@ -4,7 +4,7 @@ Teacup::Stylesheet.new :basic do
   @mid_color = 0x8ea1bc.uicolor
 
   style UIView,
-    backgroundColor: 'basice/neutral'.uicolor
+    backgroundColor: 'basic/neutral'.uicolor
 
   style :custom_label,
     text: 'App Stuff!',
