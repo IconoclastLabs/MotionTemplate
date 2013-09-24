@@ -20,6 +20,9 @@ class RootController < UIViewController
     @custom_label = layout(UILabel, :custom_title)
     self.navigationItem.titleView = @custom_label
 
+    # Fix for iOS7 navigation
+    self.edgesForExtendedLayout = UIRectEdgeNone
+
   	# Use custom button for navigation button
   	@gear.addTarget(self, action:'push_settings', forControlEvents:UIControlEventTouchUpInside)
   	@nav_bar_button = UIBarButtonItem.alloc.initWithCustomView(@gear)

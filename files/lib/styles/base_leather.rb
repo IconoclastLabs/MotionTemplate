@@ -77,7 +77,7 @@ Teacup::Stylesheet.new :base_leather do
       value: 0.5
 
   style :custom_title,
-    frame: [[20,0],[300, 20]],
+    frame: [[0,0],[300, 20]],
     font: "SnellRoundhand".uifont(26),
     text: "Motion Template",
     textColor: :white,
