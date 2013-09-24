@@ -1,3 +1,6 @@
+./vendor/bundle
+.bundle
+bin
 .repl_history
 build
 resources/*.nib
