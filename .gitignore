@@ -8,3 +8,9 @@ resources/*.momd
 resources/*.storyboardc
 tags
 .DS_Store
+resources/Icon-72.png
+resources/Icon-72@2x.png
+resources/Icon-Small-50@2x.png
+resources/Icon-Small@2x.png
+resources/Icon.png
+resources/Icon@2x.png

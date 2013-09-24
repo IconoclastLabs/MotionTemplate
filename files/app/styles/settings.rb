@@ -39,4 +39,14 @@ Teacup::Stylesheet.new :settings do
       attributed: :beaker.awesome_icon + ' Iconoclast Labs Website' 
     }
 
+  style :share_button,
+    constraints: [
+      :center_x,
+      constrain_below(:site_button)
+    ], 
+    #button normal state
+    normal: {
+      attributed: :share.awesome_icon + ' Share This'
+    } 
+
 end
