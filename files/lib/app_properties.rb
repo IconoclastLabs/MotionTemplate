@@ -36,7 +36,7 @@ class AppProperties
   end
 
   def deployment_target
-    '7.0'
+    '6.1'
   end
 
   # add folders outside of /app
