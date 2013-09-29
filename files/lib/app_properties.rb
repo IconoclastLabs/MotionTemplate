@@ -12,7 +12,7 @@ class AppProperties
   end
 
   def self.root_style
-    :base_leather # could also be - :basic
+    :basic #:base_leather # could also be - :basic
   end
 
   def frameworks
@@ -36,7 +36,7 @@ class AppProperties
   end
 
   def deployment_target
-    '6.0'
+    '7.0'
   end
 
   # add folders outside of /app
