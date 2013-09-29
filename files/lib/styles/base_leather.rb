@@ -6,9 +6,10 @@ Teacup::Stylesheet.new :base_leather do
   style UIView,
     backgroundColor: 'base_leather/background'.uicolor,
     nav_background: {
-      normal: 'base_leather/custom_nav',
+      normal: 'base_leather/ios7_header',
       landscape: 'base_leather/custom_landscape_nav'
-      }
+      },
+    tintColor: @dark_color
 
   style :custom_label,
     text: 'App Stuff!',
@@ -40,7 +41,7 @@ Teacup::Stylesheet.new :base_leather do
   style :custom_switch,
     onImage: 'base_leather/switch'.uiimage,
     offImage: 'base_leather/switch_off'.uiimage,
-    on: true
+    on: false 
 
   style :color_button,
     backgroundColor: @mid_color,

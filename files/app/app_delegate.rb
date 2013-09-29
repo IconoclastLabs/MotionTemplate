@@ -6,7 +6,7 @@ class AppDelegate
 
     #iOS7 stuffs
     UIApplication.sharedApplication.statusBar.alpha = 0
-    @window.tintColor = 0x4d3e33.uicolor
+    @window.tintColor = 0xc7a776.uicolor
 
 
     myNavController = RootController.alloc.init
