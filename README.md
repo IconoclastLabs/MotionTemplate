@@ -45,18 +45,16 @@ ________________________
 
 ________________________
 
-![MotionTemplate Screenshot](http://i.imgur.com/dciswLo.png "MotionTemplate")
-![MotionTemplate Settings](http://i.imgur.com/udLvcgu.png "MotionTemplateSettings")
+![MotionTemplate Screenshot](http://i.imgur.com/oMiIwCG.png)
 
 ## Themes ##
-Change the style in `AppProperties` so you can implement multiple themes.  Here's setting the `self.root_style` to `:basic` 
-![MotionTemplate Basic](http://i.imgur.com/ZsRKqLW.png "MotionTemplateBasic")
+Change the style in `AppProperties` so you can implement multiple themes. 
 
 ## Requirements ##
 
 * Requires RubyMotion 2.0 (see [Tag for rubymotion 1.x](https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x) if you are not 2.0 - Not a template just a project) 
 * This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
-* *iOS 6 or greater is mandatory* If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+* *iOS 7 or greater is mandatory* (see [Tag for iOS6](https://github.com/IconoclastLabs/MotionTemplate/tree/ios6) if you are not aiming for iOS7
 * *imagemagick and ghostscript* Are needed if you plan on using [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) to stamp your icons.
 
 ## Copyright License ##
