@@ -2,9 +2,6 @@
 
 [![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
 
-## iOS7 Note
-*I've started fixing MotionTemplate to not suck on iOS7... I need help.  [See branch here](https://github.com/IconoclastLabs/MotionTemplate/tree/ios7)*
-
 ### About
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
 your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
@@ -45,18 +42,16 @@ ________________________
 
 ________________________
 
-![MotionTemplate Screenshot](http://i.imgur.com/dciswLo.png "MotionTemplate")
-![MotionTemplate Settings](http://i.imgur.com/udLvcgu.png "MotionTemplateSettings")
+![MotionTemplate Screenshot](http://i.imgur.com/oMiIwCG.png)
 
 ## Themes ##
-Change the style in `AppProperties` so you can implement multiple themes.  Here's setting the `self.root_style` to `:basic` 
-![MotionTemplate Basic](http://i.imgur.com/ZsRKqLW.png "MotionTemplateBasic")
+Change the style in `AppProperties` so you can implement multiple themes. 
 
 ## Requirements ##
 
 * Requires RubyMotion 2.0 (see [Tag for rubymotion 1.x](https://github.com/IconoclastLabs/MotionTemplate/tree/rm1.x) if you are not 2.0 - Not a template just a project) 
 * This is a RubyMotion Project with all dependencies listed in [the Gem file](https://github.com/IconoclastLabs/MotionTemplate/blob/master/Gemfile).
-* *iOS 6 or greater is mandatory* If you'd like to use this project for older iOS releases you'll need to remove all autolayout and replace with hardcoded widths/heights/tops/lefts.
+* *iOS 7 or greater is mandatory* (see [Tag for iOS6](https://github.com/IconoclastLabs/MotionTemplate/tree/ios6) if you are not aiming for iOS7
 * *imagemagick and ghostscript* Are needed if you plan on using [Motion-Rubberstamp](https://github.com/IconoclastLabs/motion-rubberstamp) to stamp your icons.
 
 ## Copyright License ##

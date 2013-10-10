@@ -1,10 +1,14 @@
-include SugarCube::Adjust
-
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     # Adding Motion-Xray's UIWindow shim
     #@window = Motion::Xray::XrayWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+
+    #iOS7 stuffs
+    UIApplication.sharedApplication.statusBar.alpha = 0
+    @window.tintColor = 0xc7a776.uicolor
+
+
     myNavController = RootController.alloc.init
 
     @window.rootViewController = UINavigationController.alloc.initWithRootViewController(myNavController)

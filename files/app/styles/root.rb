@@ -6,7 +6,7 @@ Teacup::Stylesheet.new :root do
   style :label, extends: :custom_label,
     constraints: [
       :full_width,
-      constrain_top(50)
+      constrain_top(0)
     ],
     backgroundColor: :clear
 
@@ -26,7 +26,8 @@ Teacup::Stylesheet.new :root do
 
   style :switch, extends: :custom_switch,
     constraints: [
-      constrain_below(:long_button).plus(v_padding * 2),
+      constrain_below(:long_button).plus(v_padding),
+      constrain_above(:custom_color_button).minus(v_padding),
       # Position at Middle + half (75%)
       constrain(:center_x).equals(:superview, :center_x).times(1.5)
     ]
