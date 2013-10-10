@@ -1,5 +1,5 @@
 class AppProperties
-  VERSION = '1.7'
+  VERSION = '2.0'
   SKU_NAME = 'motiontemplate' 
   COMPANY_NAME = 'com.iconoclastlabs.'
 
@@ -36,7 +36,7 @@ class AppProperties
   end
 
   def deployment_target
-    '6.0'
+    '6.1'
   end
 
   # add folders outside of /app
