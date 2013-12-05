@@ -1,6 +1,7 @@
 # MotionTemplate #
 
 [![Build Status](https://api.travis-ci.org/IconoclastLabs/MotionTemplate.png)](https://travis-ci.org/IconoclastLabs/MotionTemplate)
+[![Crusher.io Optimization Badge](http://crusher.io/repo/iconoclastlabs/motiontemplate/badge)](http://crusher.io/repo/iconoclastlabs/motiontemplate)
 
 ### About
 *Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
