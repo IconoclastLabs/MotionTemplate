@@ -4,8 +4,8 @@
 [![Crusher.io Optimization Badge](http://crusher.io/repo/iconoclastlabs/motiontemplate/badge)](http://crusher.io/repo/iconoclastlabs/motiontemplate)
 
 ### About
-*Motion Template is a strightforward clean template for loading useful gems and skinned UI items.  It's an excellent starting point for building
-your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM 2.0 template!*
+*Motion Template is a strightforward clean RubyMotion template for loading useful gems and skinned UI items.  It's an excellent starting point for building
+your RubyMotion application.  Simply strip out the features you don't need, and start implementing your app on this robust RM template!*
 
 ### To Install And Use Template
 You can use this template straight off github if you have RubyMotion >= 2.3 (if repo already exists it will do a `git pull`)
