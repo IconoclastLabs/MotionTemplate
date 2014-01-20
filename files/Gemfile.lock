@@ -9,7 +9,7 @@ GEM
     motion-map (0.0.4)
     motion-rubberstamp (0.0.6)
     rake (10.1.1)
-    sugarcube (1.0.3)
+    sugarcube (1.3.11)
     sweettea (0.5.6)
       rake
       sugarcube
